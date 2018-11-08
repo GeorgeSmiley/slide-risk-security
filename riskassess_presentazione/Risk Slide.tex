@@ -1,0 +1,203 @@
+\documentclass[xcolor ={table,usenames,dvipsnames}]{beamer}
+\usepackage[italian]{babel}
+\usepackage{listings}
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\title{Risk Assessment}
+
+\author{Authors: Tommaso Puccetti, Edoardo Dini}
+\institute{Universit\`a  degli studi di Firenze}
+\date{22/09/2018}
+\usepackage{sansmathaccent}
+\usetheme{Berlin} 
+\useinnertheme{rounded}
+\useoutertheme{miniframes} 
+\setbeamercovered{dynamic}
+ 
+\theoremstyle{definition}
+\newtheorem{definizione}{Definizione}
+
+
+
+
+
+\begin{document}
+	
+	\begin{frame}
+		\maketitle
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{IT Security Management: overview (1)}
+		Is the formal process of answering the questions:
+		%\begin{figure}[h!]
+		%	\centering
+		%	\includegraphics[scale=0.45]{img/act.PNG}
+		%	\label{Interfacce di un CS}
+		%\end{figure}
+		\begin{itemize}
+			\item Ensure that asset are sufficiently protected in a cost-effective manner;
+			\item Security risk assessment is needed for each asset in the organization;  that require protection;
+			\item Provide the information necessary to decide what management, operational and technical controls are needed to reduce the risk identified
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{IT Security Management: overview (2)}
+		\begin{alertblock}{Definition:}
+			 A process used to achieve and maintain appropriate levels of confidentiality, integrity, availability, accountability, authenticity, and reliability. IT security management functions include:
+		\end{alertblock}
+		\begin{itemize}
+			\item determining organizational IT security objectives, strategies, and policies
+			\item determining organizational IT security requirements
+			\item identifying and analyzing security threats to IT assets 
+			\item identifying and analyzing risks
+			\item specifying appropriate safeguards
+			\item monitoring the implementation and operation of safeguards
+			\item developing and implementing a security awareness program
+			\item detecting and reacting to incidents
+		\end{itemize}	
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{IT Security Management: a cyclic process}
+	    \textbf{It is important to emphasize that:}
+	    \begin{itemize}
+	    	\item IT security management needs to be a key part of an organization’s overall management plan.
+	    	\item IT security risk assessment process should be incorporated into the
+	    	wider risk assessment of all the organization’s assets and business processes.
+	    	\item IT security management is a cyclic process \textbf{that must be repeated constantly} (as specified in [ISO27001]).
+	    \end{itemize} 
+		%\begin{figure}[h!]
+		%	\centering
+		%	\includegraphics[scale=0.45]{img/act.PNG}
+		%	\label{Interfacce di un CS}
+		%\end{figure}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Figure 14.2}
+			%\begin{figure}[h!]
+		%	\centering
+		%	\includegraphics[scale=0.45]{img/act.PNG}
+		%	\label{Interfacce di un CS}
+		%\end{figure}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Figure 14.1}
+		%\begin{figure}[h!]
+		%	\centering
+		%	\includegraphics[scale=0.45]{img/act.PNG}
+		%	\label{Interfacce di un CS}
+		%\end{figure}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Evolution and consensus}
+		The discipline of IT security management has evolved considerably over the last few decades. This has occurred in response to the rapid growth of, and dependence on networked computer systems and the associated rise in risks to these systems. In the last	decade a number of national and international standards have been published. These represent a consensus on the best practice in the field. The International Standards Organization (ISO) has revised and consolidated a number of these standards into the 27000 series.
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{ISO 27000 series of Standards on IT Security Techniques }
+		\begin{table}[]
+			\resizebox{11.5cm}{!}{
+				\begin{tabular}{|
+					>{\columncolor[HTML]{32CB00}}l |l|}
+				\hline
+				27000:2012 & \begin{tabular}[c]{@{}l@{}}“Information security management systems—Overview and vocabulary” provides an\\ ­overview of information security management systems, and defines the vocabulary and\\ ­definitions used in the 27000 family of standards.\end{tabular}              \\ \hline
+				27001:2005 & \begin{tabular}[c]{@{}l@{}}“Information security management systems—Requirements” specifies the requirements for\\ establishing, implementing, operating, monitoring, reviewing, maintaining, and improving a\\ documented Information Security Management System.\end{tabular} \\ \hline
+				27002:2005 & \begin{tabular}[c]{@{}l@{}}“Code of practice for information security management” provides guidelines for informa-\\ tion security management in an organization and contains a list of best-practice security\\ controls. It was formerly known as ISO17799.\end{tabular}      \\ \hline
+				27003:2010 & \begin{tabular}[c]{@{}l@{}}“Information security management system implementation guidance” details the process\\ from inception to the production of implementation plans of an Information Security\\ Management System specification and design.\end{tabular}                \\ \hline
+				27004:2009 & \begin{tabular}[c]{@{}l@{}}“Information security management—Measurement” provides guidance to help organiza-\\ tions measure and report on the effectiveness of their Information Security Management\\ System processes and controls.\end{tabular}                             \\ \hline
+				27005:2011 & \begin{tabular}[c]{@{}l@{}}“Information security risk management” provides guidelines on the information security\\ risk management process. It supersedes ISO13335-3/4.\end{tabular}                                                                                           \\ \hline
+				27006:2007 & \begin{tabular}[c]{@{}l@{}}“Requirements for bodies providing audit and certification of information security\\ ­management systems” specifies requirements and provides guidance for these bodies.\end{tabular}                                                                \\ \hline
+			\end{tabular}
+		}
+		\end{table}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Organizational Context and Security Policy}
+		In IT security management process comprises an examination of the organization's IT security \textbf{object, strategies and policies}. This can only occur in the wider context of the organization's management.
+		IMMAGINE SLIDE 8
+		%\begin{figure}[h!]
+		%	\centering
+		%	\includegraphics[scale=0.45]{img/act.PNG}
+		%	\label{Interfacce di un CS}
+		%\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Security Objectives}
+		\begin{itemize}
+			\item What key aspects of the organization require IT support in order to function efficiently?
+			\item What tasks can only be performed with IT support?
+			\item Which essential decisions depend on the accuracy, currency, integrity, or availability of data managed by the IT systems?
+			\item What data created, managed, processed, and stored by the IT systems need
+			protection?
+			\item What are the consequences to the organization of a security failure in their IT systems?
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Security Strategy}
+		Once the objectives are listed, some broad strategy statements can be developed.
+		These outline in general terms how the identified objectives will be met in a ­consistent manner across the organization:
+		\begin{itemize}
+			 \item The topics and details in the strategy ­statements
+			depend on the identified objectives, the size of the organization, and the importance of the IT systems to the organization. 
+			\item The strategy statements should address the approaches the organization will use to manage the security of its IT systems. Given the organizational security objectives and strategies, an organizational
+		\end{itemize}	
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Security Policy}
+		Given the organizational security objectives and strategies, an organizational
+		security policy is developed that describes what the objectives and strategies are and the process used to achieve them. 
+		
+		INSERIRE ELENCO PUNTATO
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Management Support }
+		IT security policy must be supported by senior management
+		Need IT security officer
+		\begin{itemize}
+			\item To provide consistent overall supervision
+			\item Liaison with senior management
+			\item Maintenance of IT security objectives, strategies, policies
+			\item Handle incidents
+			\item Management of IT security awareness and training programs
+			\item Interaction with IT project security officers
+		\end{itemize}
+		Large organizations need separate IT project security officers associated with major projects and systems
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Security Risk Assessment}
+		IMMAGINE SLIDE 11
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Baseline Approach}
+		\begin{itemize}
+			FARE IMMAGINE 
+			\item Goal is to implement agreed controls to provide protection against the most common threats
+			\item Forms a good base for further security measures
+			\item Use “industry best practice”
+				\begin{itemize}
+					\item Easy, cheap, can be replicated
+					\item Gives no special consideration to variations in risk exposure
+					\item May give too much or too little security
+				\end{itemize}
+			\item Generally recommended only for small organizations without the resources to implement more structured approaches
+		\end{itemize}
+	\end{frame}
+	
+
+
+
+	
+
+	
+\end{document}

@@ -1,0 +1,8 @@
+
+-immagine slide 3
+-creare tabella latex per tabella slide 4
+-immagine slide 6
+-immagine slide 7
+-immagine slide 8, blocchi verdi messi in orizzontale invece che in verticale
+-immagin slide 11
+-fare un'immagine anche per baseline aproach (visto che gli altri approcci hanno le loro)
