@@ -304,7 +304,6 @@
 			\item  Organization’s define threat scenarios to describe how the tactics, techniques, and procedures employed by an attacker can contribute to, or cause, harm. 
 		\end{itemize}
 		
-		
 	\end{frame}
 
 	\begin{frame}
@@ -342,6 +341,113 @@
 		\begin{alertblock}{Definition:}
 			\textbf{Risk = probability threat occurs x cost to organization}
 		\end{alertblock}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Analyze Existing Security Control } 
+		\begin{itemize}
+			\item Existing controls used to attempt to minimize threats need to be identified.
+			\item Security controls include:
+			\begin{enumerate}
+				\item Management
+				\item Operational
+				\item Technical processes and procedures
+			\end{enumerate}
+			\item Use checklists of existing controls and interview key organizational staff to solicit information
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Risk Likelihood (1)}
+		\begin{itemize}
+			\item Take the assets and the threath/vulnerability from the previous steps and decides an appropriate rating. It is related to the \textbf{likelihood of a specified threath exploiting one or more vulnerability to an asset}.
+			\item When deliberate \textbf{human-made threat} sources are considered, this
+			estimate should include an evaluation of the attackers intent, capability, and specific targeting of this organization (an high rating suggests that a threat has occurred sometimes previously).
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Risk Likelihood (2)}
+		\begin{itemize}
+			\item There will very likely be some uncertainty and debate over exactly which rating is most appropriate. The final decision will be taken by the management.
+			\item The likelihood is typically described \textbf{qualitatively}, using values and descriptions such as those shown in the table.
+		\end{itemize}
+		\begin{table}[]
+			\resizebox{10cm}{!}{
+				\begin{tabular}{|l|l|l|}
+					\hline
+					\rowcolor[HTML]{32CB00} 
+					Rating & \begin{tabular}[c]{@{}l@{}}Likelihood\\ Description\end{tabular} & Expanded Definition                                                                                                                                                       \\ \hline
+					1      & Rare                                                             & \begin{tabular}[c]{@{}l@{}}May occur only in exceptional circumstances and may be deemed a\\ “unlucky” or very unlikely.\end{tabular}                                     \\ \hline
+					2      & Unlikely                                                         & \begin{tabular}[c]{@{}l@{}}Could occur at some time but not expected given current \\ controls, ­circumstances, and recent events.\end{tabular}                           \\ \hline
+					3      & Possible                                                         & \begin{tabular}[c]{@{}l@{}}Might occur at some time, but just as likely as not. It may be difficult \\ to control its occurrence due to external influences.\end{tabular} \\ \hline
+					4      & Likely                                                           & \begin{tabular}[c]{@{}l@{}}Will probably occur in some circumstance and one should \\ not be ­surprised if it occurred.\end{tabular}                                      \\ \hline
+					5      & Almost Certain                                                   & Is expected to occur in most circumstances and certainly sooner                                                                                                           \\ \hline
+				\end{tabular}
+			}
+		\end{table}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Risk Consequences (1)}
+		\begin{itemize}
+			\item Consequence specification indicates the impact on the organization (and not only on the security system) should the particular threat in question actually eventuate.
+			\item Use \textbf{qualitative values}.
+			\item As with the likelihood ratings, there is likely to be some uncertainty as to the best rating to use.
+			\item As with the likelihood ratings, the consequence ratings must be determined knowing the organization’s current practices (existing backup, disaster recovery, and contingency planning), will influence the choice of rating.
+		\end{itemize}
+	\end{frame}
+	
+	
+	\begin{frame}
+		\frametitle{Risk Consequences (2)}
+		INSERIRE TABELLA
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Risk level determination and meaning}
+		\begin{table}[]
+			\resizebox{10cm}{!}{
+			\begin{tabular}{|l|l|l|l|l|l|l|}
+				\hline
+				\rowcolor[HTML]{32CB00} 
+				& \multicolumn{6}{l|}{\cellcolor[HTML]{32CB00}\textbf{Consequences}} \\ \hline
+				\rowcolor[HTML]{34FF34} 
+				\cellcolor[HTML]{32CB00}\textbf{Likelihood} & Doomsday & Catastrophic & Major & Moderate & Minor & Insignificant \\ \hline
+				\cellcolor[HTML]{34FF34}Almost Certain      & E        & E            & E     & E        & H     & H             \\ \hline
+				\cellcolor[HTML]{34FF34}Likely              & E        & E            & E     & H        & H     & M             \\ \hline
+				\cellcolor[HTML]{34FF34}Possible            & E        & E            & E     & H        & M     & L             \\ \hline
+				\cellcolor[HTML]{34FF34}Unlikely            & E        & E            & H     & M        & L     & L             \\ \hline
+				\cellcolor[HTML]{34FF34}Rare                & E        & H            & H     & M        & L     & L             \\ \hline
+			\end{tabular}
+		}
+		\end{table}
+	\begin{table}[]
+		\resizebox{10cm}{!}{
+		\begin{tabular}{|l|l|}
+			\hline
+			\rowcolor[HTML]{32CB00} 
+			Risk Level  & Description                                                                                                                                                                                                                                                                                                                        \\ \hline
+			Extreme (E) & \begin{tabular}[c]{@{}l@{}}Will require detailed research and management planning at an executive/director level.\\ Ongoing planning and monitoring will be required with regular reviews. \\ Substantial adjustment of controls to manage the risk is expected, with costs possibly \\ exceeding original forecasts.\end{tabular} \\ \hline
+			High (H)    & \begin{tabular}[c]{@{}l@{}}Requires management attention, but management and planning can be left to senior\\ project or team leaders. Ongoing planning and monitoring with regular reviews are\\ likely, though adjustment of controls is likely to be met from within existing resources.\end{tabular}                           \\ \hline
+			Medium (M)  & \begin{tabular}[c]{@{}l@{}}Can be managed by existing specific monitoring and response procedures. \\ Management by employees is suitable with appropriate monitoring and reviews.\end{tabular}                                                                                                                                    \\ \hline
+			Low (L)     & Can be managed through routine procedures                                                                                                                                                                                                                                                                                          \\ \hline
+		\end{tabular}
+	}
+	\end{table}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Risk Register}
+		\begin{itemize}
+			\item Used to keep track of the risk analysis process and, if needed, provides evidence that a formal risk assessment process has been followed. 
+			\item The risks are usually sorted in decreasing
+			order of level. This would be supported by details of how the various items were determined, including the rationale, justification, and 
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Risk Treatment}	
 	\end{frame}
 
 	
