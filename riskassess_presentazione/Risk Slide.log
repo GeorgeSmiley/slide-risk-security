@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.9.21)  12 NOV 2018 19:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.9.21)  13 NOV 2018 15:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -750,6 +750,9 @@ LaTeX Warning: Label `Interfacce di un CS' multiply defined.
 
 LaTeX Warning: Label `Interfacce di un CS' multiply defined.
 
+
+LaTeX Warning: Label `Interfacce di un CS' multiply defined.
+
 )
 \openout1 = `"Risk Slide.aux"'.
 
@@ -1295,11 +1298,40 @@ Missing character: There is no ™ in font cmss10!
 
 ] [34
 
-] [35
+]
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no “ in font cmss10!
+
+Overfull \vbox (0.26701pt too high) detected at line 432
+ []
+
+[35
 
 ] [36
 
 ] [37
+
+] [38
+
+]
+<img/img_13.PNG, id=1047, 375.804pt x 341.1144pt>
+File: img/img_13.PNG Graphic file (type png)
+<use img/img_13.PNG>
+Package pdftex.def Info: img/img_13.PNG  used on input line 498.
+(pdftex.def)             Requested size: 206.69284pt x 187.61348pt.
+pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
+0di\040un\040CS}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.498 	\end{frame}
+                  
+Overfull \vbox (3.87613pt too high) detected at line 498
+ []
+
+[39
+
+ <./img/img_13.PNG>] [40
 
 ]
 \tf@nav=\write6
@@ -1311,12 +1343,11 @@ Missing character: There is no ™ in font cmss10!
 \tf@snm=\write8
 \openout8 = `"Risk Slide.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 462.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 462.
-
-(./Risk Slide.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 462.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 462.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 524.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 524.
+ (./Risk Slide.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 524.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 524.
 Package rerunfilecheck Info: File `"Risk Slide".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1328,10 +1359,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19183 strings out of 492982
- 358255 string characters out of 6134896
+ 19198 strings out of 492982
+ 358429 string characters out of 6134896
  452340 words of memory out of 5000000
- 22235 multiletter control sequences out of 15000+600000
+ 22243 multiletter control sequences out of 15000+600000
  11345 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,57p,806b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1339,10 +1370,10 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on "Risk Slide.pdf" (37 pages, 745402 bytes).
+Output written on "Risk Slide.pdf" (40 pages, 780747 bytes).
 PDF statistics:
- 1055 PDF objects out of 1200 (max. 8388607)
- 976 compressed objects within 10 object streams
- 76 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1137 PDF objects out of 1200 (max. 8388607)
+ 1052 compressed objects within 11 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
