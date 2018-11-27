@@ -295,19 +295,27 @@
 			\item A security experts may not have an high knowledge of the organization's oepration and structure, so experts for each area of the organization are needed for the process.
 		\end{itemize}
 	\end{frame}
-
+	
 	\begin{frame}
 		\frametitle{Threat Identification (1)}
+			\begin{figure}[h!]
+			\centering
+			\includegraphics[scale=0.25]{img/img_12.PNG}
+			\label{Interfacce di un CS}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Threat Identification (2)}
 		\textbf{\textit{"Who or what could cause harm to the assets?"}}
 		\begin{itemize}
 			\item Identifying possible threats and threat sources requires the use of a \textbf{variety of sources}, along with the experience of the risk assessor. 
 			\item  Organization’s define threat scenarios to describe how the tactics, techniques, and procedures employed by an attacker can contribute to, or cause, harm. 
 		\end{itemize}
-		
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{Threat Identification (2)}
+		\frametitle{Threat Identification (3)}
 		\begin{enumerate}
 			\item  \textbf{Motivation}: Why would they target this organization; how motivated are they?
 			\item \textbf{Capability}: What is their level of skill in exploiting the threat?
@@ -439,13 +447,13 @@
 				\hline
 				\rowcolor[HTML]{32CB00} 
 				& \multicolumn{6}{l|}{\cellcolor[HTML]{32CB00}\textbf{Consequences}} \\ \hline
-				\rowcolor[HTML]{34FF34} 
+				\rowcolor[HTML]{32CB00} 
 				\cellcolor[HTML]{32CB00}\textbf{Likelihood} & Doomsday & Catastrophic & Major & Moderate & Minor & Insignificant \\ \hline
-				\cellcolor[HTML]{34FF34}Almost Certain      & E        & E            & E     & E        & H     & H             \\ \hline
-				\cellcolor[HTML]{34FF34}Likely              & E        & E            & E     & H        & H     & M             \\ \hline
-				\cellcolor[HTML]{34FF34}Possible            & E        & E            & E     & H        & M     & L             \\ \hline
-				\cellcolor[HTML]{34FF34}Unlikely            & E        & E            & H     & M        & L     & L             \\ \hline
-				\cellcolor[HTML]{34FF34}Rare                & E        & H            & H     & M        & L     & L             \\ \hline
+				\cellcolor[HTML]{32CB00}Almost Certain      & E        & E            & E     & E        & H     & H             \\ \hline
+				\cellcolor[HTML]{32CB00}Likely              & E        & E            & E     & H        & H     & M             \\ \hline
+				\cellcolor[HTML]{32CB00}Possible            & E        & E            & E     & H        & M     & L             \\ \hline
+				\cellcolor[HTML]{32CB00}Unlikely            & E        & E            & H     & M        & L     & L             \\ \hline
+				\cellcolor[HTML]{32CB00}Rare                & E        & H            & H     & M        & L     & L             \\ \hline
 			\end{tabular}
 		}
 		\end{table}
@@ -471,6 +479,17 @@
 			\item The risks are usually sorted in decreasing
 			order of level. This would be supported by details of how the various items were determined, including the rationale, justification, and 
 		\end{itemize}
+		\begin{table}[]
+				\resizebox{10cm}{!}{
+			\begin{tabular}{|l|l|l|l|l|l|l|}
+				\hline
+				\rowcolor[HTML]{32CB00} 
+				Asset                                                                  & \begin{tabular}[c]{@{}l@{}}Threat /\\ Vulnerability\end{tabular}    & \begin{tabular}[c]{@{}l@{}}Existing \\ Controls\end{tabular}                  & Likelihood & Consequence & Level of Risk & Risk Priority \\ \hline
+				\begin{tabular}[c]{@{}l@{}}Internet\\ router\end{tabular}              & \begin{tabular}[c]{@{}l@{}}Outside Hacker \\ attack\end{tabular}    & \begin{tabular}[c]{@{}l@{}}Admin \\ password only\end{tabular}                & Possible   & Moderate    & High          & 1             \\ \hline
+				\begin{tabular}[c]{@{}l@{}}Destruction\\ of data\\ center\end{tabular} & \begin{tabular}[c]{@{}l@{}}Accidental fire \\ or flood\end{tabular} & \begin{tabular}[c]{@{}l@{}}None (no\\ disaster \\ recovery plan)\end{tabular} & Unlikely   & Major       & High          & 2             \\ \hline
+			\end{tabular}
+		}
+		\end{table}
 	\end{frame}
 
 	\begin{frame}
@@ -499,15 +518,73 @@
 	
 	\begin{frame}
 		\frametitle{Risk Treatment (3)}
-		There are five broad alternatives available to management for treating identified risks:
-		\begin{enumerate}
-			\item\textbf{Risk acceptance}
-			\item\textbf{Risk avoidance}
-			\item\textbf{Risk transfer}
-			\item\textbf{Reduce consequence}
-			\item\textbf{Reduce likelihood}
-		\end{enumerate}
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[scale=0.25]{img/img_14.PNG}
+			\label{Interfacce di un CS}
+		\end{figure}
 	\end{frame}
+
+	\begin{frame}
+		\frametitle{Case study: Silver Star Mine}
+		A case study involving the operations of  company Silver Star Mines illustrates this risk assessment process. 
+		\begin{itemize}
+			\item Silver Star Mines is the local operations of a large global
+			mining company. 
+			\item It has a large IT infrastructure.
+			\item Its network includes a variety of servers, executing a range of ­application ­software. 
+			\item It uses also applications directly related to the health and safety of those working in the mine.
+			\item Many of these systems used to be isolated, with no network connections among them.
+			\item In recent years, they have been connected together and connected to the ­company’s
+			intranet to provide better management capabilities. 
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Case study: Silver Star Mine (2)}
+		The security analyst and company management decided to adopt a \textbf{combined approach}:
+		\begin{itemize}
+			\item The analyst was asked to conduct a preliminary formal assessment of the key IT systems.
+			\item The context for the risk assessment was determined: being in the mining industry sector places the company at the less risky end of the ­spectrum.
+			\item SSM is part of a large organization and hence is subject to legal requirements for occupational health and safety. Thus management decided to accept only moderate or lower risks.
+			%SEMMAI AGGIUNGERE that it wished to accept only moderate or lower risks in general. The boundaries
+			%for this risk assessment were specified to include only the systems under the direct
+			%control of the Silver Star Mines operations. This excluded the wider company
+			%intranet, its central servers, and its Internet gateway. This assessment is sponsored
+			%by Silver Star’s IT and engineering managers, with results to be reported to the
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Case study: assets identification}
+		The analyst conducted interviews with key IT and engineering managers in the company, identifying the following key assets:
+		\begin{itemize}
+			\item \textbf{SCADA network};
+			\item \textbf{Data integrity};
+			\item \textbf{Email service}.
+		\end{itemize}
+		Having determined the list of key assets, the analyst needed to identify significant threats to these assets and to specify the likelihood and consequence values.
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Case study: risk register}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Case study: conclusions}
+		All of the resulting risk levels are above the acceptable minimum management specified as tolerable. \textbf{Hence treatment is required}:
+		\begin{itemize}
+			\item Management decided the first five risks should be treated
+			by implementing suitable controls, which would reduce either the likelihood or the consequence should these risks occur. None of these risks could be accepted or avoided.
+			\item management decided that the risk to the SCADA network was
+			unacceptable if there was any possibility of death, however remote. 
+			\item Responsibility for the final risk	to the e-mail system was found to be primarily with the parent company’s IT group,
+			which manages the external mail gateway. Hence the risk is shared with that group.
+		\end{itemize}
+	\end{frame}
+
+	
+	
 
 	
 
