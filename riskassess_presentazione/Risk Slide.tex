@@ -2,7 +2,7 @@
 \usepackage[italian]{babel}
 \usepackage{listings}
 \PassOptionsToPackage{dvipsnames}{xcolor}
-\title{Risk Assessment}
+\title{Chapter 14: Risk Assessment}
 
 \author{Authors: Tommaso Puccetti, Edoardo Dini}
 \institute{Universit\`a  degli studi di Firenze}
@@ -26,6 +26,67 @@
 		\maketitle
 	\end{frame}
 	
+		\begin{frame}
+		\frametitle{Index}
+		\begin{itemize}
+			\item  \textbf{IT Security Management: overview}
+			\begin{itemize}
+				\item Overview
+				\item Evolution and consensus
+			\end{itemize}
+			\item   \textbf{Organizational Context and Security Policy;}
+			\begin{itemize}
+				\item Security Objectives, Strategy and Policy
+			\end{itemize}
+			\item   \textbf{Approaches in Risk Assessment;}
+			\begin{itemize}
+				\item Baseline, Informal and Detailed Approaches
+				\item Combined Approach
+			\end{itemize}
+			\item  \textbf{Detailed Security Risk Analysis};
+			\begin{itemize}
+				\item Establishing the Context
+				\item Asset, Threat and Vulnerability identification
+				\item Analyze Existing Security Control
+				\item Risk Likelihood and Concequences
+				\item Risk Level Determination and Meaning
+				\item Risk Treatment
+			\end{itemize}
+			\item  \textbf{Case study: Silver Star Mine.}
+		\end{itemize}
+	\end{frame}
+		
+	\begin{frame}
+		\frametitle{Index}
+		\begin{itemize}
+			\item <1-> \textbf{IT Security Management: overview}
+			\begin{itemize}
+				\item Overview
+				\item Evolution and consensus
+			\end{itemize}
+			\item <0>  \textbf{Organizational Context and Security Policy;}
+			\begin{itemize}
+				\item Security Objectives, Strategy and Policy
+			\end{itemize}
+			\item <0>  \textbf{Approaches in Risk Assessment;}
+			\begin{itemize}
+				\item Baseline, Informal and Detailed Approaches
+				\item Combined Approach
+			\end{itemize}
+			\item <0> \textbf{Detailed Security Risk Analysis};
+			\begin{itemize}
+				\item Establishing the Context
+				\item Asset, Threat and Vulnerability identification
+				\item Analyze Existing Security Control
+				\item Risk Likelihood and Concequences
+				\item Risk Level Determination and Meaning
+				\item Risk Treatment
+			\end{itemize}
+			\item <0> \textbf{Case study: Silver Star Mine.}
+		\end{itemize}
+	\end{frame}
+
+	
 	\begin{frame}
 		\frametitle{IT Security Management: overview (1)}
 	\textbf{	Is the formal process of answering the questions:}
@@ -36,25 +97,25 @@
 		\end{figure}
 		\begin{itemize}
 			\item Ensure that asset are sufficiently protected in a cost-effective manner;
-			\item Security risk assessment is needed for each asset in the organization;  that require protection;
-			\item Provide the information necessary to decide what management, operational and technical controls are needed to reduce the risk identified
+			\item Security risk assessment is needed for each asset in the organization that require protection;
+			\item Provide the information necessary to decide what management, operational and technical controls are needed to reduce the risk identified.
 		\end{itemize}
 	\end{frame}
 
 	\begin{frame}
 		\frametitle{IT Security Management: overview (2)}
 		\begin{alertblock}{Definition:}
-			 A process used to achieve and maintain appropriate levels of confidentiality, integrity, availability, accountability, authenticity, and reliability. 
+			 IT security management is a process used to achieve and maintain appropriate levels of confidentiality, integrity, availability, accountability, authenticity, and reliability. 
 		\end{alertblock}
 		\begin{itemize}
-			\item determining organizational IT security objectives, strategies, and policies
-			\item determining organizational IT security requirements
-			\item identifying and analyzing security threats to IT assets 
-			\item identifying and analyzing risks
-			\item specifying appropriate safeguards
-			\item monitoring the implementation and operation of safeguards
-			\item developing and implementing a security awareness program
-			\item detecting and reacting to incidents
+			\item Determining organizational IT security objectives, strategies, and policies;
+			\item Determining organizational IT security requirements;
+			\item Identifying and analyzing security threats to IT assets; 
+			\item Identifying and analyzing risks;
+			\item Specifying appropriate safeguards;
+			\item Monitoring the implementation and operation of safeguards;
+			\item Developing and implementing a security awareness program;
+			\item Detecting and reacting to incidents.
 		\end{itemize}	
 	\end{frame}
 
@@ -62,9 +123,9 @@
 		\frametitle{IT Security Management: a cyclic process (1)}
 	    \textbf{It is important to emphasize that:}
 	    \begin{itemize}
-	    	\item IT security management needs to be a key part of an organization’s overall management plan.
+	    	\item IT security management needs to be a key part of an organization’s overall management plan;
 	    	\item IT security risk assessment process should be incorporated into the
-	    	wider risk assessment of all the organization’s assets and business processes.
+	    	wider risk assessment of all the organization’s assets and business processes;
 	    	\item IT security management is a cyclic process \textbf{that must be repeated constantly} (as specified in [ISO27001]).
 	    \end{itemize} 
 	\end{frame}
@@ -89,7 +150,14 @@
 	
 	\begin{frame}
 		\frametitle{Evolution and consensus}
-		The discipline of IT security management has evolved considerably over the last few decades. This has occurred in response to the rapid growth of, and dependence on networked computer systems and the associated rise in risks to these systems. In the last	decade a number of national and international standards have been published. These represent a consensus on the best practice in the field. The International Standards Organization (ISO) has revised and consolidated a number of these standards into the 27000 series.
+		The discipline of IT security management has evolved considerably over the last few decades:
+		 
+		\begin{itemize}
+			\item This has occurred in response to the rapid growth of, and dependence on, networked computer systems and the associated rise in risks to these systems;
+			\item In the last	decade a number of national and international standards have been published. These represent a consensus on the best practice in the field;
+			\item \textbf{The International Standards Organization (ISO) has revised and consolidated a number of these standards into the 27000 series.}
+		\end{itemize}
+		 
 	\end{frame}
 
 	\begin{frame}
@@ -99,16 +167,45 @@
 				\begin{tabular}{|
 					>{\columncolor[HTML]{32CB00}}l |l|}
 				\hline
-				27000:2012 & \begin{tabular}[c]{@{}l@{}}“Information security management systems—Overview and vocabulary” provides an\\ ­overview of information security management systems, and defines the vocabulary and\\ ­definitions used in the 27000 family of standards.\end{tabular}              \\ \hline
-				27001:2005 & \begin{tabular}[c]{@{}l@{}}“Information security management systems—Requirements” specifies the requirements for\\ establishing, implementing, operating, monitoring, reviewing, maintaining, and improving a\\ documented Information Security Management System.\end{tabular} \\ \hline
-				27002:2005 & \begin{tabular}[c]{@{}l@{}}“Code of practice for information security management” provides guidelines for informa-\\ tion security management in an organization and contains a list of best-practice security\\ controls. It was formerly known as ISO17799.\end{tabular}      \\ \hline
-				27003:2010 & \begin{tabular}[c]{@{}l@{}}“Information security management system implementation guidance” details the process\\ from inception to the production of implementation plans of an Information Security\\ Management System specification and design.\end{tabular}                \\ \hline
-				27004:2009 & \begin{tabular}[c]{@{}l@{}}“Information security management—Measurement” provides guidance to help organiza-\\ tions measure and report on the effectiveness of their Information Security Management\\ System processes and controls.\end{tabular}                             \\ \hline
-				27005:2011 & \begin{tabular}[c]{@{}l@{}}“Information security risk management” provides guidelines on the information security\\ risk management process. It supersedes ISO13335-3/4.\end{tabular}                                                                                           \\ \hline
-				27006:2007 & \begin{tabular}[c]{@{}l@{}}“Requirements for bodies providing audit and certification of information security\\ ­management systems” specifies requirements and provides guidance for these bodies.\end{tabular}                                                                \\ \hline
+				27000:2012 & \begin{tabular}[c]{@{}l@{}}\textquotedblleft Information security management systems: Overview and vocabulary\textquotedblright provides an\\ ­overview of information security management systems, and defines the vocabulary and\\ ­definitions used in the 27000 family of standards.\end{tabular}              \\ \hline
+				27001:2005 & \begin{tabular}[c]{@{}l@{}}\textquotedblleft Information security management systems: Requirements\textquotedblright specifies the requirements for\\ establishing, implementing, operating, monitoring, reviewing, maintaining, and improving a\\ documented Information Security Management System.\end{tabular} \\ \hline
+				27002:2005 & \begin{tabular}[c]{@{}l@{}}\textquotedblleft Code of practice for information security management\textquotedblright provides guidelines for informa-\\ tion security management in an organization and contains a list of best-practice security\\ controls. It was formerly known as ISO17799.\end{tabular}      \\ \hline
+				27003:2010 & \begin{tabular}[c]{@{}l@{}}\textquotedblleft Information security management system implementation guidance\textquotedblright details the process\\ from inception to the production of implementation plans of an Information Security\\ Management System specification and design.\end{tabular}                \\ \hline
+				27004:2009 & \begin{tabular}[c]{@{}l@{}}\textquotedblleft Information security management: Measurement\textquotedblright provides guidance to help organiza-\\ tions measure and report on the effectiveness of their Information Security Management\\ System processes and controls.\end{tabular}                             \\ \hline
+				27005:2011 & \begin{tabular}[c]{@{}l@{}}\textquotedblleft Information security risk management\textquotedblright provides guidelines on the information security\\ risk management process. It supersedes ISO13335-3/4.\end{tabular}                                                                                           \\ \hline
+				27006:2007 & \begin{tabular}[c]{@{}l@{}}\textquotedblleft Requirements for bodies providing audit and certification of information security\\ ­management systems\textquotedblright specifies requirements and provides guidance for these bodies.\end{tabular}                                                                \\ \hline
 			\end{tabular}
 		}
 		\end{table}
+	\end{frame}
+	\begin{frame}
+		\frametitle{Index}
+		\begin{itemize}
+			\item <0> \textbf{IT Security Management: overview}
+			\begin{itemize}
+				\item Overview
+				\item Evolution and consensus
+			\end{itemize}
+			\item <1->  \textbf{Organizational Context and Security Policy;}
+			\begin{itemize}
+				\item Security Objectives, Strategy and Policy
+			\end{itemize}
+			\item <0>  \textbf{Approaches in Risk Assessment;}
+			\begin{itemize}
+				\item Baseline, Informal and Detailed Approaches
+				\item Combined Approach
+			\end{itemize}
+			\item <0> \textbf{Detailed Security Risk Analysis};
+			\begin{itemize}
+				\item Establishing the Context
+				\item Asset, Threat and Vulnerability identification
+				\item Analyze Existing Security Control
+				\item Risk Likelihood and Concequences
+				\item Risk Level Determination and Meaning
+				\item Risk Treatment
+			\end{itemize}
+			\item <0> \textbf{Case study: Silver Star Mine.}
+		\end{itemize}
 	\end{frame}
 
 	\begin{frame}
@@ -137,37 +234,87 @@
 	\begin{frame}
 		\frametitle{Security Strategy}
 		Once the objectives are listed, some broad strategy statements can be developed.
-		These outline in general terms how the identified objectives will be met in a ­consistent manner across the organization:
+		These outline, in general terms, \textbf{how the identified objectives will be met} in a consistent manner across the organization:
 		\begin{itemize}
 			 \item The topics and details in the strategy ­statements
-			depend on the identified objectives, the size of the organization, and the importance of the IT systems to the organization. 
-			\item The strategy statements should address the approaches the organization will use to manage the security of its IT systems. Given the organizational security objectives and strategies, an organizational
+			depend on the identified objectives, the size of the organization, and the importance of the IT systems to the organization; 
+			\item The strategy statements should address the approaches the organization will use to manage the security of its IT systems. 
 		\end{itemize}	
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{Security Policy}
-		Given the organizational security objectives and strategies, an organizational
-		security policy is developed that describes what the objectives and strategies are and the process used to achieve them. 
-		
-		INSERIRE ELENCO PUNTATO
+		\frametitle{Security Policy (1)}
+		Given the organizational security objectives and strategies, an organizational security policy is developed that describes what the objectives and strategies are and the process used to achieve them. 
+		\begin{itemize}
+			\item The scope and purpose of the policy;
+			\item The relationship of the security objectives to the organization’s legal and regulatory obligations, and its business objectives;
+			\item IT security requirements in terms of confidentiality, integrity, availability, accountability, authenticity, and reliability, particularly with regard to the views of the asset owners;
+			\item The assignment of responsibilities relating to the management of IT security and the organizational infrastructure;
+			\item The risk management approach adopted by the organization;
+		\end{itemize}
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{Management Support }
-		IT security policy must be supported by senior management
-		Need IT security officer
+		\frametitle{Security Policy (2)}
+		
 		\begin{itemize}
-			\item To provide consistent overall supervision
-			\item Liaison with senior management
-			\item Maintenance of IT security objectives, strategies, policies
-			\item Handle incidents
-			\item Management of IT security awareness and training programs
-			\item Interaction with IT project security officers
+		\item How security awareness and training is to be handled;
+		\item General personnel issues, especially for those in positions of trust;
+		\item Any legal sanctions that may be imposed on staff, and the conditions under which such penalties apply;
+		\item Integration of security into systems development and procurement;
+		\item Definition of the information classification scheme used across the organization;
+		\item Contingency and business continuity planning;
+		\item Incident detection and handling processes;
+		\item How and when this policy should be reviewed;
+		\item The method for controlling changes to this policy.
 		\end{itemize}
-		Large organizations need separate IT project security officers associated with major projects and systems
 	\end{frame}
 
+	\begin{frame}
+		\frametitle{Management Support}
+		IT security policy must be supported by senior management. \\
+		Need IT security officer:
+		\begin{itemize}
+			\item To provide consistent overall supervision;
+			\item Connection with senior management;
+			\item Maintenance of IT security objectives, strategies, policies;
+			\item Handle incidents;
+			\item Management of IT security awareness and training programs;
+			\item Interaction with IT project security officers.
+		\end{itemize}
+		Large organizations need separate IT project security officers associated with major projects and systems.
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Index}
+		\begin{itemize}
+			\item <0> \textbf{IT Security Management: overview}
+			\begin{itemize}
+				\item Overview
+				\item Evolution and consensus
+			\end{itemize}
+			\item <0>  \textbf{Organizational Context and Security Policy;}
+			\begin{itemize}
+				\item Security Objectives, Strategy and Policy
+			\end{itemize}
+			\item <1->  \textbf{Approaches in Risk Assessment;}
+			\begin{itemize}
+				\item Baseline, Informal and Detailed Approaches
+				\item Combined Approach
+			\end{itemize}
+			\item <0> \textbf{Detailed Security Risk Analysis};
+			\begin{itemize}
+				\item Establishing the Context
+				\item Asset, Threat and Vulnerability identification
+				\item Analyze Existing Security Control
+				\item Risk Likelihood and Concequences
+				\item Risk Level Determination and Meaning
+				\item Risk Treatment
+			\end{itemize}
+			\item <0> \textbf{Case study: Silver Star Mine.}
+		\end{itemize}
+	\end{frame}
+	
 	\begin{frame}
 		\frametitle{Security Risk Assessment}
 		\begin{figure}[h!]
@@ -216,23 +363,52 @@
 		\end{figure}
 	\end{frame}
 
+%	\begin{frame}
+%		\frametitle{Combined Approach (1)} 
+%		 Aim is to provide reasonable levels of protection as quickly as possible then to examine and adjust the protection controls deployed on key systems over time:
+%		Over time, this can result in the most appropriate and cost-effective security %controls being selected and implemented on these systems
+%	\end{frame}
+	
 	\begin{frame}
-		\frametitle{Combined Approach (1)}
-		IMMAGINE 
-		 Aim is to provide reasonable levels of protection as quickly as possible then to examine and adjust the protection controls deployed on key systems over time:
-		Over time, this can result in the most appropriate and cost-effective security controls being selected and implemented on these systems
+		\frametitle{Combined Approach}
+		\begin{enumerate}
+			\item This approach starts with the implementation of suitable baseline security recommendations on all systems;
+			\item Next, systems either exposed to high risk levels or critical to the organization's business objectives are identified in the high-level risk assessment;
+			\item A decision can then be made to possibly conduct an immediate informal risk assessment on key systems, with the aim of relatively quickly tailoring controls to more accurately reflect their requirements;
+			\item Lastly, an ordered process of performing detailed risk analyses of these systems can be instituted.
+		\end{enumerate}
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{Combined Approach (2)}
-		\begin{enumerate}
-			\item Approach starts with the implementation of suitable baseline security recommendations on all systems
-			\item Next, systems either exposed to high risk levels or critical to the organization's business objectives are identified in the high-level risk assessment
-			\item A decision can then be made to possibly conduct an immediate informal risk assessment on key systems, with the aim of relatively quickly tailoring controls to more accurately reflect their requirements
-			\item Lastly, an ordered process of performing detailed risk analyses of these systems can be instituted
-		\end{enumerate}
+		\frametitle{Index}
+		\begin{itemize}
+			\item <0> \textbf{IT Security Management: overview}
+			\begin{itemize}
+				\item Overview
+				\item Evolution and consensus
+			\end{itemize}
+			\item <0>  \textbf{Organizational Context and Security Policy;}
+			\begin{itemize}
+				\item Security Objectives, Strategy and Policy
+			\end{itemize}
+			\item <0>  \textbf{Approaches in Risk Assessment;}
+			\begin{itemize}
+				\item Baseline, Informal and Detailed Approaches
+				\item Combined Approach
+			\end{itemize}
+			\item <1-> \textbf{Detailed Security Risk Analysis};
+			\begin{itemize}
+				\item Establishing the Context
+				\item Asset, Threat and Vulnerability identification
+				\item Analyze Existing Security Control
+				\item Risk Likelihood and Concequences
+				\item Risk Level Determination and Meaning
+				\item Risk Treatment
+			\end{itemize}
+			\item <0> \textbf{Case study: Silver Star Mine.}
+		\end{itemize}
 	\end{frame}
-
+	
 	\begin{frame}
 		\frametitle{Detailed Security Risk Analysis (1)}
 		\begin{figure}[h!]
@@ -250,20 +426,20 @@
 			\label{Interfacce di un CS}
 		\end{figure}
 	\end{frame}
-
+	
 	\begin{frame}
 		\frametitle{Establishing the Context (1)}
 		\begin{itemize}
-			\item	Initial steps 
+			\item	Initial steps: 
 			\begin{itemize}
-				\item Determine the basic parameters of the risk assessment
-				\item Identify the assets to be examined
+				\item Determine the basic parameters of the risk assessment;
+				\item Identify the assets to be examined.
 			\end{itemize}
-			\item Explores political and social environment in which the organization operates \begin{itemize}
-				\item 	Legal and regulatory constraints
-				\item	Provide baseline for organization’s risk exposure
+			\item Explores political and social environment in which the organization operates: \begin{itemize}
+				\item 	Legal and regulatory constraints;
+				\item	Provide baseline for organization’s risk exposure.
 			\end{itemize}
-			\item The \textbf{risk appetite} is the level of risk the organization views as acceptable
+			\item The \textbf{risk appetite} is the level of risk the organization views as acceptable.
 		\end{itemize}	
 	\end{frame}
 
@@ -279,10 +455,10 @@
 	\begin{frame}
 		\frametitle{Terminology}
 			\begin{itemize}
-				\item \textbf{Asset}: a system resource or capability of value to its owner that requires protection. 
-				\item \textbf{Threat}: a potential for a threat source to exploit a vulnerability in some asset, which if it occurs may compromise the security of the asset and cause harm to the asset’s owner
-				\item \textbf{Vulnerability}: a flaw or weakness in an asset’s design, implementation, or operation and management that could be exploited 		by some threat
-				\item \textbf{Risk}: The potential for loss computed as the 	combination of the likelihood that a given threat exploits some vulnerability to an asset, and the magnitude of harmful consequence that results to the asset’s owner.
+				\item \textbf{Asset}: a system resource or capability of value to its owner that requires protection; 
+				\item \textbf{Threat}: a potential for a threat source to exploit a vulnerability in some asset, which if it occurs may compromise the security of the asset and cause harm to the asset’s owner;
+				\item \textbf{Vulnerability}: a flaw or weakness in an asset’s design, implementation, or operation and management that could be exploited by some threat;
+				\item \textbf{Risk}: The potential for loss, computed as the 	combination of the likelihood that a given threat exploits some vulnerability to an asset, and the magnitude of harmful consequence that results to the asset’s owner.
 			\end{itemize}
 	\end{frame}
 
@@ -290,9 +466,9 @@
 		\frametitle{Asset Identification}
 		\textit{\textbf{"What assets we need to protect?"}}
 		\begin{itemize}
-			\item These assets need to be identified and their value to the organization assessed.
-			\item The ideal is to consider every conceivable asset, in practice this is not possible. Rather the goal here is to identify all assets that contribute significantly to attaining the organization’s objectives and whose compromise the organization’s operation. 
-			\item A security experts may not have an high knowledge of the organization's oepration and structure, so experts for each area of the organization are needed for the process.
+			\item These assets need to be identified and their value to the organization assessed;
+			\item The ideal is to consider every conceivable asset, in practice this is not possible. Rather the goal here is to identify all assets that contribute significantly to attaining the organization’s objectives and whose compromise the organization’s operation; 
+			\item A security expert may not have an high knowledge of the organization's operation and structure, so experts for each area of the organization are needed for the process.
 		\end{itemize}
 	\end{frame}
 	
@@ -309,7 +485,7 @@
 		\frametitle{Threat Identification (2)}
 		\textbf{\textit{"Who or what could cause harm to the assets?"}}
 		\begin{itemize}
-			\item Identifying possible threats and threat sources requires the use of a \textbf{variety of sources}, along with the experience of the risk assessor. 
+			\item Identifying possible threats and threat sources requires the use of a \textbf{variety of sources}, along with the experience of the risk assessor; 
 			\item  Organization’s define threat scenarios to describe how the tactics, techniques, and procedures employed by an attacker can contribute to, or cause, harm. 
 		\end{itemize}
 	\end{frame}
@@ -327,57 +503,58 @@
 	
 	\begin{frame}
 		\frametitle{Vulnerability Identification}
+		 \textbf{"How could this occur?"}
 		\begin{itemize}
-			\item Identify exploitable flaws or weaknesses in organization’s IT systems or processes
+			\item \textbf{Identify} exploitable flaws or weaknesses in organization’s IT systems or processes:
 			\begin{itemize}
-				\item Determines applicability and significance of threat to organization
+				\item Determines applicability and significance of threat to organization.
 			\end{itemize}
-			\item Need combination of threat and vulnerability to create a risk to an asset
-			\item utcome should be a list of threats and vulnerabilities with brief descriptions of how and why they might occur
+			\item Need combination of threat and vulnerability to create a risk to an asset;
+			\item \textbf{Outcome} should be a list of threats and vulnerabilities with brief descriptions of how and why they might occur.
 		\end{itemize}
 	\end{frame}
-
+	
 	\begin{frame}
 		\frametitle{Analyze Risks}
 		\begin{itemize}
-			\item Specify likelihood of occurrence of each identified threat to asset given existing controls
-			\item Specify consequence should threat occur
-			\item Hard to determine accurate               probabilities and realistic cost          consequences
-			\item Use qualitative, not quantitative, ratings 
-			\item Derive overall risk rating for each threat
+			\item Specify likelihood of occurrence of each identified threat to asset, given existing controls;
+			\item Specify consequence should threat occur;
+			\item Hard to determine accurate probabilities and realistic cost consequences;
+			\item Use qualitative, not quantitative, ratings; 
+			\item Derive overall risk rating for each threat.
 		\end{itemize}
 		\begin{alertblock}{Definition:}
-			\textbf{Risk = probability threat occurs x cost to organization}
+			\textbf{Risk = Probability threat occurs x Cost to organization}
 		\end{alertblock}
 	\end{frame}
 
 	\begin{frame}
 		\frametitle{Analyze Existing Security Control } 
 		\begin{itemize}
-			\item Existing controls used to attempt to minimize threats need to be identified.
+			\item Existing controls used to attempt to minimize threats need to be identified;
 			\item Security controls include:
 			\begin{enumerate}
-				\item Management
-				\item Operational
-				\item Technical processes and procedures
+				\item Management;
+				\item Operational;
+				\item Technical processes and procedures.
 			\end{enumerate}
-			\item Use checklists of existing controls and interview key organizational staff to solicit information
+			\item Use checklists of existing controls and interview key organizational staff to solicit information.
 		\end{itemize}
 	\end{frame}
 
 	\begin{frame}
 		\frametitle{Risk Likelihood (1)}
 		\begin{itemize}
-			\item Take the assets and the threath/vulnerability from the previous steps and decides an appropriate rating. It is related to the \textbf{likelihood of a specified threath exploiting one or more vulnerability to an asset}.
+			\item Take the assets and the threath/vulnerability from the previous steps and decides an appropriate rating. It is related to the \textbf{likelihood of a specified threath exploiting one or more vulnerability to an asset};
 			\item When deliberate \textbf{human-made threat} sources are considered, this
-			estimate should include an evaluation of the attackers intent, capability, and specific targeting of this organization (an high rating suggests that a threat has occurred sometimes previously).
+			estimate should include an evaluation of the attackers intent, capability, and specific targeting of this organization (an high rating suggests that a threat has occurred sometimes previously);
 		\end{itemize}
 	\end{frame}
 
 	\begin{frame}
 		\frametitle{Risk Likelihood (2)}
 		\begin{itemize}
-			\item There will very likely be some uncertainty and debate over exactly which rating is most appropriate. The final decision will be taken by the management.
+			\item There will very likely be some uncertainty and debate over exactly which rating is most appropriate. The final decision will be taken by the management;
 			\item The likelihood is typically described \textbf{qualitatively}, using values and descriptions such as those shown in the table.
 		\end{itemize}
 		\begin{table}[]
@@ -390,7 +567,7 @@
 					2      & Unlikely                                                         & \begin{tabular}[c]{@{}l@{}}Could occur at some time but not expected given current \\ controls, ­circumstances, and recent events.\end{tabular}                           \\ \hline
 					3      & Possible                                                         & \begin{tabular}[c]{@{}l@{}}Might occur at some time, but just as likely as not. It may be difficult \\ to control its occurrence due to external influences.\end{tabular} \\ \hline
 					4      & Likely                                                           & \begin{tabular}[c]{@{}l@{}}Will probably occur in some circumstance and one should \\ not be ­surprised if it occurred.\end{tabular}                                      \\ \hline
-					5      & Almost Certain                                                   & Is expected to occur in most circumstances and certainly sooner                                                                                                           \\ \hline
+					5      & Almost Certain                                                   & Is expected to occur in most circumstances and certainly sooner.                                                                                                           \\ \hline
 				\end{tabular}
 			}
 		\end{table}
@@ -399,10 +576,10 @@
 	\begin{frame}
 		\frametitle{Risk Consequences (1)}
 		\begin{itemize}
-			\item Consequence specification indicates the impact on the organization (and not only on the security system) should the particular threat in question actually eventuate.
-			\item Use \textbf{qualitative values}.
-			\item As with the likelihood ratings, there is likely to be some uncertainty as to the best rating to use.
-			\item As with the likelihood ratings, the consequence ratings must be determined knowing the organization’s current practices (existing backup, disaster recovery, and contingency planning), will influence the choice of rating.
+			\item Consequence specification indicates the impact on the organization (and not only on the security system) should the particular threat in question actually eventuate;
+			\item Use \textbf{qualitative values};
+			\item As with the likelihood ratings, there is likely to be some \textbf{uncertainty} as to the best rating to use;
+			\item As with the likelihood ratings, the consequence ratings must be determined \textbf{knowing the organization’s current practices} (existing backup, disaster recovery, and contingency planning), will influence the choice of rating.
 		\end{itemize}
 	\end{frame}
 	
@@ -466,7 +643,7 @@
 			Extreme (E) & \begin{tabular}[c]{@{}l@{}}Will require detailed research and management planning at an executive/director level.\\ Ongoing planning and monitoring will be required with regular reviews. \\ Substantial adjustment of controls to manage the risk is expected, with costs possibly \\ exceeding original forecasts.\end{tabular} \\ \hline
 			High (H)    & \begin{tabular}[c]{@{}l@{}}Requires management attention, but management and planning can be left to senior\\ project or team leaders. Ongoing planning and monitoring with regular reviews are\\ likely, though adjustment of controls is likely to be met from within existing resources.\end{tabular}                           \\ \hline
 			Medium (M)  & \begin{tabular}[c]{@{}l@{}}Can be managed by existing specific monitoring and response procedures. \\ Management by employees is suitable with appropriate monitoring and reviews.\end{tabular}                                                                                                                                    \\ \hline
-			Low (L)     & Can be managed through routine procedures                                                                                                                                                                                                                                                                                          \\ \hline
+			Low (L)     & Can be managed through routine procedures.                                                                                                                                                                                                                                                                                          \\ \hline
 		\end{tabular}
 	}
 	\end{table}
@@ -475,9 +652,9 @@
 	\begin{frame}
 		\frametitle{Risk Register}
 		\begin{itemize}
-			\item Used to keep track of the risk analysis process and, if needed, provides evidence that a formal risk assessment process has been followed. 
+			\item Used to \textbf{keep track of the risk analysis process} and, if needed, provides evidence that a formal risk assessment process has been followed;
 			\item The risks are usually sorted in decreasing
-			order of level. This would be supported by details of how the various items were determined, including the rationale, justification, and 
+			order of level. This would be supported by details of how the various items were determined, including the rationale, justification, and and supporting evidence used.
 		\end{itemize}
 		\begin{table}[]
 				\resizebox{10cm}{!}{
@@ -495,14 +672,14 @@
 	\begin{frame}
 		\frametitle{Risk Treatment (1)}	
 		\begin{itemize}
-			\item Management decides which treatments should be apllied, considering the data collected in the previous phases.
+			\item Management decides which treatments should be apllied, considering the data collected in the previous phases;
 			\item The decision is conditioned by two factors:
 			\begin{enumerate}
 				\item Level of risk;
 				\item Cost for treatment implementation.
 			\end{enumerate}
-			\item If the cost of treatment is high, but the risk is low, then it is usually uneconomic to proceed with such treatment. 
-			\item If the risk is high and the cost is comparatively low, treatment should occur. 
+			\item If the cost of treatment is high, but the risk is low, then it is usually uneconomic to proceed with such treatment; 
+			\item If the risk is high and the cost is comparatively low, treatment should occur;
 			\item The most difficult area occurs between these extremes. 
 		\end{itemize}
 	\end{frame}
@@ -524,19 +701,48 @@
 			\label{Interfacce di un CS}
 		\end{figure}
 	\end{frame}
-
+	
+	\begin{frame}
+		\frametitle{Index}
+		\begin{itemize}
+			\item <0> \textbf{IT Security Management: overview}
+			\begin{itemize}
+				\item Overview
+				\item Evolution and consensus
+			\end{itemize}
+			\item <0>  \textbf{Organizational Context and Security Policy;}
+			\begin{itemize}
+				\item Security Objectives, Strategy and Policy
+			\end{itemize}
+			\item <0>  \textbf{Approaches in Risk Assessment;}
+			\begin{itemize}
+				\item Baseline, Informal and Detailed Approaches
+				\item Combined Approach
+			\end{itemize}
+			\item <0> \textbf{Detailed Security Risk Analysis};
+			\begin{itemize}
+				\item Establishing the Context
+				\item Asset, Threat and Vulnerability identification
+				\item Analyze Existing Security Control
+				\item Risk Likelihood and Concequences
+				\item Risk Level Determination and Meaning
+				\item Risk Treatment
+			\end{itemize}
+			\item <1> \textbf{Case study: Silver Star Mine.}
+		\end{itemize}
+	\end{frame}
+	
 	\begin{frame}
 		\frametitle{Case study: Silver Star Mine}
 		A case study involving the operations of  company Silver Star Mines illustrates this risk assessment process. 
 		\begin{itemize}
 			\item Silver Star Mines is the local operations of a large global
-			mining company. 
-			\item It has a large IT infrastructure.
-			\item Its network includes a variety of servers, executing a range of ­application ­software. 
-			\item It uses also applications directly related to the health and safety of those working in the mine.
-			\item Many of these systems used to be isolated, with no network connections among them.
-			\item In recent years, they have been connected together and connected to the ­company’s
-			intranet to provide better management capabilities. 
+			mining company;
+			\item It has a large IT infrastructure;
+			\item Its network includes a variety of servers, executing a range of ­application ­software;
+			\item It uses also applications directly related to the health and safety of those working in the mine;
+			\item Many of these systems used to be isolated, with no network connections among them;
+			\item In recent years, they have been connected together and connected to the ­company’s intranet to provide better management capabilities. 
 		\end{itemize}
 	\end{frame}
 
@@ -544,9 +750,9 @@
 		\frametitle{Case study: Silver Star Mine (2)}
 		The security analyst and company management decided to adopt a \textbf{combined approach}:
 		\begin{itemize}
-			\item The analyst was asked to conduct a preliminary formal assessment of the key IT systems.
-			\item The context for the risk assessment was determined: being in the mining industry sector places the company at the less risky end of the ­spectrum.
-			\item SSM is part of a large organization and hence is subject to legal requirements for occupational health and safety. Thus management decided to accept only moderate or lower risks.
+			\item The analyst was asked to conduct a preliminary formal assessment of the key IT systems;
+			\item The context for the risk assessment was determined: being in the mining industry sector places the company at the less risky end of the ­spectrum;
+			\item SSM is part of a large organization and hence is subject to legal requirements for occupational health and safety. Thus management \textbf{decided to accept only moderate or lower risks.}
 			%SEMMAI AGGIUNGERE that it wished to accept only moderate or lower risks in general. The boundaries
 			%for this risk assessment were specified to include only the systems under the direct
 			%control of the Silver Star Mines operations. This excluded the wider company
@@ -568,22 +774,40 @@
 	
 	\begin{frame}
 		\frametitle{Case study: risk register}
+		% Please add the following required packages to your document preamble:
+		% \usepackage[table,xcdraw]{xcolor}
+		% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+		\begin{table}[]
+			\resizebox{8,3cm}{!}{
+			\begin{tabular}{|l|l|l|l|l|l|l|}
+				\hline
+				\rowcolor[HTML]{32CB00} 
+				Asset                                                                                                        & \begin{tabular}[c]{@{}l@{}}Threat/\\ Vulnerability\end{tabular}                          & \begin{tabular}[c]{@{}l@{}}Existing \\ Controls\end{tabular}                    & Likelihood                                                & Consequence & \begin{tabular}[c]{@{}l@{}}Level of \\ Risk\end{tabular} & \begin{tabular}[c]{@{}l@{}}Risk \\ Priority\end{tabular} \\ \hline
+				\begin{tabular}[c]{@{}l@{}}Reliability and \\ integrity of the \\ SCADA nodes \\ and network\end{tabular}    & \begin{tabular}[c]{@{}l@{}}Unauthorized \\ modification\\ of control system\end{tabular} & \begin{tabular}[c]{@{}l@{}}Layered, \\ firewalls \\ and \\ servers\end{tabular} & Rare                                                      & Major       & High                                                     & 1                                                        \\ \hline
+				\begin{tabular}[c]{@{}l@{}}Integrity of\\ stored file\\ and database\\ information\end{tabular}              & \begin{tabular}[c]{@{}l@{}}Corruption, theft,\\ loss of info\end{tabular}                & \begin{tabular}[c]{@{}l@{}}Firewall, \\ policies\end{tabular}                   & Possible                                                  & Major       & Extreme                                                  & 2                                                        \\ \hline
+				\begin{tabular}[c]{@{}l@{}}Availability\\ and integrity\\ of financial\\ system\end{tabular}                 & \begin{tabular}[c]{@{}l@{}}Attacks/errors\\ affecting system\end{tabular}                & \begin{tabular}[c]{@{}l@{}}Firewall, \\ policies\end{tabular}                   & Possible                                                  & Moderate    & High                                                     & 3                                                        \\ \hline
+				\begin{tabular}[c]{@{}l@{}}Availability\\ and integrity\\ of procurement\\ system\end{tabular}               & \begin{tabular}[c]{@{}l@{}}Attacks/errors \\ affecting system\end{tabular}               & \begin{tabular}[c]{@{}l@{}}Firewall, \\ policies\end{tabular}                   & Possible                                                  & Moderate    & High                                                     & 4                                                        \\ \hline
+				\begin{tabular}[c]{@{}l@{}}Availability\\ and integrity\\ of maintenance/\\ production\\ system\end{tabular} & \begin{tabular}[c]{@{}l@{}}Attacks/errors \\ affecting system\end{tabular}               & \begin{tabular}[c]{@{}l@{}}Firewall, \\ policies\end{tabular}                   & Possible                                                  & Minor       & Medium                                                   & 5                                                        \\ \hline
+				\begin{tabular}[c]{@{}l@{}}Availability,\\ integrity, and\\ confidentiality\\ of mail services\end{tabular}  & \begin{tabular}[c]{@{}l@{}}Attacks/errors \\ affecting system\end{tabular}               & \begin{tabular}[c]{@{}l@{}}Firewall, \\ ext mail \\ gateway\end{tabular}        & \begin{tabular}[c]{@{}l@{}}Almost \\ certain\end{tabular} & Minor       & High                                                     & 6                                                        \\ \hline
+			\end{tabular}
+		}
+		\end{table}
 	\end{frame}
-
+	
 	\begin{frame}
 		\frametitle{Case study: conclusions}
 		All of the resulting risk levels are above the acceptable minimum management specified as tolerable. \textbf{Hence treatment is required}:
 		\begin{itemize}
 			\item Management decided the first five risks should be treated
-			by implementing suitable controls, which would reduce either the likelihood or the consequence should these risks occur. None of these risks could be accepted or avoided.
+			by implementing suitable controls, which would reduce either the likelihood or the consequence should these risks occur. None of these risks could be accepted or avoided;
 			\item management decided that the risk to the SCADA network was
-			unacceptable if there was any possibility of death, however remote. 
-			\item Responsibility for the final risk	to the e-mail system was found to be primarily with the parent company’s IT group,
-			which manages the external mail gateway. Hence the risk is shared with that group.
+			unacceptable if there was any possibility of death, however remote;
+			\item Responsability for the final risk	to the e-mail system was found to be primarily with the parent company’s IT group, which manages the external mail gateway. Hence the risk is shared with that group.
 		\end{itemize}
 	\end{frame}
 
-	
+
+
 	
 
 	

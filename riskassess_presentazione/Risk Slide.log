@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.9.21)  27 NOV 2018 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.9.21)  8 DEC 2018 21:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -953,290 +953,270 @@ italian.ldf    on input line 23.
 (./Risk Slide.nav) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<img/img_01.PNG, id=46, 1334.9875pt x 220.825pt>
-File: img/img_01.PNG Graphic file (type png)
-<use img/img_01.PNG>
-Package pdftex.def Info: img/img_01.PNG  used on input line 42.
-(pdftex.def)             Requested size: 266.99277pt x 44.16422pt.
+Overfull \vbox (3.99182pt too high) detected at line 57
+ []
 
 [2
 
- <./img/img_01.PNG>] [3
+]
+Overfull \vbox (3.99182pt too high) detected at line 87
+ []
+
+[3
 
 ]
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
+<img/img_01.PNG, id=107, 1334.9875pt x 220.825pt>
+File: img/img_01.PNG Graphic file (type png)
+<use img/img_01.PNG>
+Package pdftex.def Info: img/img_01.PNG  used on input line 103.
+(pdftex.def)             Requested size: 266.99277pt x 44.16422pt.
  [4
 
+ <./img/img_01.PNG>] [5
+
 ]
-<img/img_02.PNG, id=132, 640.64343pt x 335.8146pt>
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ô in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ô in font cmss10!
+ [6
+
+]
+<img/img_02.PNG, id=190, 640.64343pt x 335.8146pt>
 File: img/img_02.PNG Graphic file (type png)
 <use img/img_02.PNG>
-Package pdftex.def Info: img/img_02.PNG  used on input line 79.
+Package pdftex.def Info: img/img_02.PNG  used on input line 140.
 (pdftex.def)             Requested size: 320.32092pt x 167.90689pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.79 	\end{frame}
-                 
-Overfull \hbox (13.03105pt too wide) in paragraph at lines 79--79
+l.140 	\end{frame}
+                  
+Overfull \hbox (13.03105pt too wide) in paragraph at lines 140--140
  [] 
  []
 
 
-Overfull \vbox (11.36955pt too high) detected at line 79
+Overfull \vbox (11.36955pt too high) detected at line 140
  []
 
-[5
+[7
 
  <./img/img_02.PNG>]
-<img/img_03.PNG, id=160, 459.50777pt x 481.8pt>
+<img/img_03.PNG, id=219, 459.50777pt x 481.8pt>
 File: img/img_03.PNG Graphic file (type png)
 <use img/img_03.PNG>
-Package pdftex.def Info: img/img_03.PNG  used on input line 88.
+Package pdftex.def Info: img/img_03.PNG  used on input line 149.
 (pdftex.def)             Requested size: 183.79984pt x 192.71658pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.88 	\end{frame}
-                 
-Overfull \vbox (8.97923pt too high) detected at line 88
+l.149 	\end{frame}
+                  
+Overfull \vbox (8.97923pt too high) detected at line 149
  []
 
-[6
+[8
 
- <./img/img_03.PNG>] [7
+ <./img/img_03.PNG>] [9
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 112.
+LaTeX Font Info:    Try loading font information for U+msa on input line 180.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 112.
+LaTeX Font Info:    Try loading font information for U+msb on input line 180.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 112.
+line 180.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ú in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no î in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ù in font cmss10!
 Missing character: There is no ¬ in font cmss10!
 Missing character: There is no ≠ in font cmss10!
 Missing character: There is no ¬ in font cmss10!
 Missing character: There is no ≠ in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ú in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no î in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ù in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ú in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ù in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ú in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ù in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ú in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no î in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ù in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ú in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ù in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ú in font cmss10!
 Missing character: There is no ¬ in font cmss10!
 Missing character: There is no ≠ in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ù in font cmss10!
 
-Overfull \hbox (19.92216pt too wide) in paragraph at lines 112--112
+Overfull \hbox (19.92216pt too wide) in paragraph at lines 180--180
  [] 
  []
 
 
-Overfull \vbox (0.7671pt too high) detected at line 112
+Overfull \vbox (0.7671pt too high) detected at line 180
  []
 
-[8
+[10
 
 ]
-<img/img_04.PNG, id=243, 1430.34375pt x 468.75125pt>
+Overfull \vbox (3.99182pt too high) detected at line 209
+ []
+
+[11
+
+]
+<img/img_04.PNG, id=327, 1430.34375pt x 468.75125pt>
 File: img/img_04.PNG Graphic file (type png)
 <use img/img_04.PNG>
-Package pdftex.def Info: img/img_04.PNG  used on input line 123.
+Package pdftex.def Info: img/img_04.PNG  used on input line 220.
 (pdftex.def)             Requested size: 286.06367pt x 93.74858pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.123 	\end{frame}
-                   [9
+l.220 	\end{frame}
+                   [12
 
- <./img/img_04.PNG>] [10
+ <./img/img_04.PNG>] [13
 
 ]
 Missing character: There is no ¬ in font cmss10!
 Missing character: There is no ≠ in font cmss10!
-Missing character: There is no ¬ in font cmss10!
-Missing character: There is no ≠ in font cmss10!
- [11
-
-] [12
-
-] [13
+ [14
 
 ]
-<img/img_05.PNG, id=376, 1106.1325pt x 746.79pt>
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ô in font cmss10!
+ [15
+
+] [16
+
+] [17
+
+]
+Overfull \vbox (3.99182pt too high) detected at line 316
+ []
+
+[18
+
+]
+<img/img_05.PNG, id=513, 1106.1325pt x 746.79pt>
 File: img/img_05.PNG Graphic file (type png)
 <use img/img_05.PNG>
-Package pdftex.def Info: img/img_05.PNG  used on input line 178.
+Package pdftex.def Info: img/img_05.PNG  used on input line 325.
 (pdftex.def)             Requested size: 276.53244pt x 186.69704pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.178 	\end{frame}
+l.325 	\end{frame}
                   
-Overfull \vbox (2.95969pt too high) detected at line 178
+Overfull \vbox (2.95969pt too high) detected at line 325
  []
 
-[14
+[19
 
  <./img/img_05.PNG>]
-<img/img_06.PNG, id=403, 1334.9875pt x 764.8575pt>
+<img/img_06.PNG, id=541, 1334.9875pt x 764.8575pt>
 File: img/img_06.PNG Graphic file (type png)
 <use img/img_06.PNG>
-Package pdftex.def Info: img/img_06.PNG  used on input line 199.
+Package pdftex.def Info: img/img_06.PNG  used on input line 346.
 (pdftex.def)             Requested size: 307.04066pt x 175.91351pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.199 	\end{frame}
+l.346 	\end{frame}
                   
-Overfull \vbox (5.77617pt too high) detected at line 199
+Overfull \vbox (5.77617pt too high) detected at line 346
  []
 
-[15
+[20
 
  <./img/img_06.PNG>]
-<img/img_07.PNG, id=430, 1120.185pt x 680.5425pt>
+<img/img_07.PNG, id=569, 1120.185pt x 680.5425pt>
 File: img/img_07.PNG Graphic file (type png)
 <use img/img_07.PNG>
-Package pdftex.def Info: img/img_07.PNG  used on input line 208.
+Package pdftex.def Info: img/img_07.PNG  used on input line 355.
 (pdftex.def)             Requested size: 302.454pt x 183.74893pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.208 	\end{frame}
-                   [16
+l.355 	\end{frame}
+                   [21
 
  <./img/img_07.PNG>]
-<img/img_08.PNG, id=459, 1334.9875pt x 641.39626pt>
+<img/img_08.PNG, id=597, 1334.9875pt x 641.39626pt>
 File: img/img_08.PNG Graphic file (type png)
 <use img/img_08.PNG>
-Package pdftex.def Info: img/img_08.PNG  used on input line 217.
+Package pdftex.def Info: img/img_08.PNG  used on input line 364.
 (pdftex.def)             Requested size: 307.04066pt x 147.51804pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.217 	\end{frame}
-                   [17
+l.364 	\end{frame}
+                   [22
 
- <./img/img_08.PNG>] [18
-
-] [19
+ <./img/img_08.PNG>] [23
 
 ]
-<img/img_09.PNG, id=539, 1106.1325pt x 605.26125pt>
+Overfull \vbox (3.99182pt too high) detected at line 410
+ []
+
+[24
+
+]
+<img/img_09.PNG, id=677, 1106.1325pt x 605.26125pt>
 File: img/img_09.PNG Graphic file (type png)
 <use img/img_09.PNG>
-Package pdftex.def Info: img/img_09.PNG  used on input line 243.
+Package pdftex.def Info: img/img_09.PNG  used on input line 419.
 (pdftex.def)             Requested size: 298.65976pt x 163.42271pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.243 		\end{frame}
-                    [20
+l.419 		\end{frame}
+                    [25
 
  <./img/img_09.PNG>]
-<img/img_10.PNG, id=567, 471.9787pt x 392.667pt>
+<img/img_10.PNG, id=705, 471.9787pt x 392.667pt>
 File: img/img_10.PNG Graphic file (type png)
 <use img/img_10.PNG>
-Package pdftex.def Info: img/img_10.PNG  used on input line 252.
+Package pdftex.def Info: img/img_10.PNG  used on input line 428.
 (pdftex.def)             Requested size: 221.83002pt x 184.55351pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.252 	\end{frame}
+l.428 	\end{frame}
                   
-Overfull \vbox (0.81616pt too high) detected at line 252
+Overfull \vbox (0.81616pt too high) detected at line 428
  []
 
-[21
+[26
 
  <./img/img_10.PNG>]
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
 Missing character: There is no ô in font cmss10!
- [22
+ [27
 
 ]
-<img/img_11.PNG, id=623, 665.35533pt x 346.896pt>
+<img/img_11.PNG, id=759, 665.35533pt x 346.896pt>
 File: img/img_11.PNG Graphic file (type png)
 <use img/img_11.PNG>
-Package pdftex.def Info: img/img_11.PNG  used on input line 277.
+Package pdftex.def Info: img/img_11.PNG  used on input line 453.
 (pdftex.def)             Requested size: 299.40712pt x 156.10175pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.277 	\end{frame}
-                   [23
+l.453 	\end{frame}
+                   [28
 
  <./img/img_11.PNG>]
 Missing character: There is no ‚ in font cmss10!
@@ -1248,12 +1228,12 @@ Missing character: There is no ô in font cmss10!
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
 Missing character: There is no ô in font cmss10!
- [24
+ [29
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 297.
+(Font)              using `OT1/cmss/bx/n' instead on input line 473.
 
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
@@ -1261,44 +1241,44 @@ Missing character: There is no ô in font cmss10!
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
 Missing character: There is no ô in font cmss10!
-[25
+[30
 
 ]
-<img/img_12.PNG, id=705, 1018.80624pt x 764.8575pt>
+<img/img_12.PNG, id=840, 1018.80624pt x 764.8575pt>
 File: img/img_12.PNG Graphic file (type png)
 <use img/img_12.PNG>
-Package pdftex.def Info: img/img_12.PNG  used on input line 306.
+Package pdftex.def Info: img/img_12.PNG  used on input line 482.
 (pdftex.def)             Requested size: 254.70093pt x 191.2139pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.306 	\end{frame}
+l.482 	\end{frame}
                   
-Overfull \vbox (7.47655pt too high) detected at line 306
+Overfull \vbox (7.47655pt too high) detected at line 482
  []
 
-[26
+[31
 
  <./img/img_12.PNG>]
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
 Missing character: There is no ô in font cmss10!
- [27
+ [32
 
-] [28
+] [33
 
 ]
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
 Missing character: There is no ô in font cmss10!
- [29
+ [34
 
-] [30
+] [35
 
-] [31
+] [36
 
-] [32
+] [37
 
 ]
 Missing character: There is no ‚ in font cmss10!
@@ -1311,67 +1291,73 @@ Missing character: There is no ¬ in font cmss10!
 Missing character: There is no ≠ in font cmss10!
 Missing character: There is no ¬ in font cmss10!
 Missing character: There is no ≠ in font cmss10!
- [33
+ [38
 
 ]
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
- [34
+Missing character: There is no ‚ in font cmssbx10!
+Missing character: There is no Ä in font cmssbx10!
+Missing character: There is no ô in font cmssbx10!
+ [39
 
-] [35
+] [40
 
 ]
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
 Missing character: There is no ì in font cmss10!
 
-Overfull \vbox (0.26701pt too high) detected at line 440
+Overfull \vbox (0.26701pt too high) detected at line 617
  []
 
-[36
+[41
 
-] [37
+] [42
 
-] [38
+] [43
 
-] [39
+] [44
 
 ]
-<img/img_13.PNG, id=1076, 375.804pt x 341.1144pt>
+<img/img_13.PNG, id=1213, 375.804pt x 341.1144pt>
 File: img/img_13.PNG Graphic file (type png)
 <use img/img_13.PNG>
-Package pdftex.def Info: img/img_13.PNG  used on input line 517.
+Package pdftex.def Info: img/img_13.PNG  used on input line 694.
 (pdftex.def)             Requested size: 206.69284pt x 187.61348pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.517 	\end{frame}
+l.694 	\end{frame}
                   
-Overfull \vbox (3.87613pt too high) detected at line 517
+Overfull \vbox (3.87613pt too high) detected at line 694
  []
 
-[40
+[45
 
  <./img/img_13.PNG>]
-<img/img_14.PNG, id=1105, 779.91376pt x 764.8575pt>
+<img/img_14.PNG, id=1241, 779.91376pt x 764.8575pt>
 File: img/img_14.PNG Graphic file (type png)
 <use img/img_14.PNG>
-Package pdftex.def Info: img/img_14.PNG  used on input line 526.
+Package pdftex.def Info: img/img_14.PNG  used on input line 703.
 (pdftex.def)             Requested size: 194.97797pt x 191.2139pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.526 	\end{frame}
+l.703 	\end{frame}
                   
-Overfull \vbox (7.47655pt too high) detected at line 526
+Overfull \vbox (7.47655pt too high) detected at line 703
  []
 
-[41
+[46
 
  <./img/img_14.PNG>]
+Overfull \vbox (3.99182pt too high) detected at line 733
+ []
+
+[47
+
+]
 Missing character: There is no ¬ in font cmss10!
 Missing character: There is no ≠ in font cmss10!
 Missing character: There is no ¬ in font cmss10!
@@ -1381,22 +1367,26 @@ Missing character: There is no ≠ in font cmss10!
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
 Missing character: There is no ô in font cmss10!
- [42
+ [48
 
 ]
 Missing character: There is no ¬ in font cmss10!
 Missing character: There is no ≠ in font cmss10!
- [43
+ [49
 
-] [44
+] [50
 
-] [45
+]
+Overfull \vbox (4.46362pt too high) detected at line 795
+ []
+
+[51
 
 ]
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
 Missing character: There is no ô in font cmss10!
- [46
+ [52
 
 ]
 \tf@nav=\write6
@@ -1408,11 +1398,11 @@ Missing character: There is no ô in font cmss10!
 \tf@snm=\write8
 \openout8 = `"Risk Slide.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 600.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 600.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 824.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 824.
  (./Risk Slide.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 600.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 600.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 824.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 824.
 Package rerunfilecheck Info: File `"Risk Slide".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1424,21 +1414,21 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19234 strings out of 492982
- 358825 string characters out of 6134896
- 452622 words of memory out of 5000000
- 22265 multiletter control sequences out of 15000+600000
+ 19270 strings out of 492982
+ 359383 string characters out of 6134896
+ 458778 words of memory out of 5000000
+ 22289 multiletter control sequences out of 15000+600000
  11345 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,57p,806b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,59p,806b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on "Risk Slide.pdf" (46 pages, 1075704 bytes).
+Output written on "Risk Slide.pdf" (52 pages, 1094990 bytes).
 PDF statistics:
- 1302 PDF objects out of 1440 (max. 8388607)
- 1205 compressed objects within 13 object streams
- 94 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1466 PDF objects out of 1728 (max. 8388607)
+ 1360 compressed objects within 14 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 

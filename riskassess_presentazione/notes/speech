@@ -1,0 +1,97 @@
+SLIDE  Vulnerability  Identification	
+
+	Una volta identificate le minacce, occorre identificare le vulnerabilità del sistema che 			     		quest'ultime potrebbero sfruttare per arrecare danno ad uno o più asset.
+
+	L'identificazione delle vulnerabilità dunque risponde alla domanda: "Come può succere"?
+	
+	Again, many of the standards listed previously include checklists of threats
+	and vulnerabilities and suggestions for tools and techniques to list them and to
+	determine their relevance to the organization.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+SLIDE  Analyze Risk
+
+	Una volta individuate minacce e vulnerabilità, il passo successivo è quello di determinare il livello 		di rischio a cui l'organizzazione è esposta.  ?????????????
+	
+	L'intento è quello di fornire informazioni in modo da aiutare il management a valutare i rischi e 	  determinare come meglio trattarli.
+	
+	L'analisi dei rischi include le seguenti attività:
+	
+	In primo luogo occorre specificare la probabilità di occorrenza per ogni minaccia nei confronti 		degli asset, nel contesto dei controlli esistenti.
+
+	Specificare le conseguenze in caso una delle minacce dovesse concretizzarsi, in termini di costi 		per l'organizzazione.
+
+	Determinare queste due misure in modo accurato è molto difficile, dunque si utilizzano punteggi 		qualitativi anzichè quantitativi. Questa affermazione risulta essere particolarmente appropriata 		per asset intangibili (come ad esempio la perdita di confidenzialità L'idea è quella di stabilire 		quali minacce debbano essere trattate 	in modo prioritario, anzichè quella di stabilire valori 		accurati di queste due misure .
+
+	Queste informazioni sono combinate per ottenere un rischio complessivo per ogni minaccia 		individuata, utilizzando la formula che vedete nella slide.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+SLIDE  Analyze Existing Security Control
+
+	Il primo passo è quello di identificare i controlli di sicurezza preesistenti 
+	Questi controlli includono processi di management, operazionali e tecnici.
+
+	La raccolta di queste informaziooni può essere svolta con l'aiuto di check list dei controlli 			esistenti ed intervistando figure chiave dello staff organizzativo.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+SLIDE Risk Likelihood (1)
+	
+	Lo scopo di questa attività, come già anticipato nella slide precedente,  è quello di stabilire, per 		ogni minaccia o vulnerabilità ottenute nei passi precedenti, un appropriato punteggio. Questo 	 punteggio è relativo alla probabilità per ogni minaccia di sfruttare una vulnerabilità con lo scopo 	      di arrecare danno ad un asset.
+
+	Una casistica particolarmente significativa è quella relativa  a minacce provenienti                             		deliberatamente	da fonti umane.
+	In questo caso la stima della probabilità deve considerare gli intenti, le capacità e gli obietttivi 		specifici di possibili attaccanti, attribuendo valori elevati nel caso in cui una minaccia di questo 		si sia già concretizzata in passato 
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+SLIDE Risk Likelihood (2)
+
+	La natura qualitativa dei ratings potrebbe portare a casi di incertezza riguardo quale sia quello 		più  appropriato da assegnare . La decisione finale sarà dunque presa dal management.
+	
+	La tabella mostrata elenca valori qualitativi possibili.
+
+	Commentare tabella. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+SLIDE Risk Consequences
+	
+	Il passo successivo è quello di determinare le conseguenze derivanti dal concretizzarsi di una 		minaccia nei confronti di uno o più asset.
+	Le conseguenze indicano l'impatto sull'organizzazione, non riguardano solo il sistema di 		   	   sicurezza o il sistema informativo.
+
+	Anche in questo caso si utilizzano valori qualitativi, dunque ci aspettiamo ambiguità riguardo la 		decisione del rating migliore.
+	
+	Come per la probabilità di occorrenza di una minaccia, il rating relativo alle conseguenze deve 	essere determinato tenendo in considerazione le pratiche correnti adottate nell'organizzazione 		per far fronte al danneggiamento di un asset e dunque al concretizzarsi di una minaccia. Ad 		esempio backup esistenti, disaster recovery, contingency planning  ???????????'
+
+	COMMENTARE TABELLA	
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+SLIDE 	Risk level determination and meaning
+
+	Ottenuti i valori qualitativi di Risk likelihood e Risk consequences, il passo successivo è quello di 		combinarli per ottenere un livello finale di rischio, per ogni minaccia individuata. 
+	Si utilizza una tabella come quella riportata.
+	Andiamo a vedere quali sono i possbili valori (qualitativi) per il livello finale di rischio.
+	
+	commentare tabella
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+SLIDE Risk register
+
+	Per tenere traccia  dei livelli di rischio e del processo svolto per ottenerli si utilizza un registro 	dei rischi.
+	All'interno del registro le minacce sono elencate in ordine decrescente in relazione al loro livello 
+	finale di rischio.
+	Le informazioni conenute nel registro sono solitamente accompagnate dai dettagli riguardanti 		le modalità e i procedimenti messi in atto per giungere alla decisione finale
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+	 
+
+	 	
+
+
+
+	
