@@ -2,12 +2,12 @@
 \usepackage[italian]{babel}
 \usepackage{listings}
 \PassOptionsToPackage{dvipsnames}{xcolor}
-\title{Chapter 14: Risk Assessment}
+\title{Chapter 14: IT Security Management}
 
 \author{Authors: Tommaso Puccetti, Edoardo Dini}
-\institute{Universit\`a  degli studi di Firenze}
-\date{22/09/2018}
-\usepackage{sansmathaccent}
+\institute{Universit\`a  degli Studi di Firenze}
+\date{11/12/2018}
+%\usepackage{sansmathaccent}
 \usetheme{Berlin} 
 \useinnertheme{rounded}
 \useoutertheme{miniframes} 
@@ -96,9 +96,9 @@
 			\label{Interfacce di un CS}
 		\end{figure}
 		\begin{itemize}
-			\item Ensure that asset are sufficiently protected in a cost-effective manner;
-			\item Security risk assessment is needed for each asset in the organization that require protection;
-			\item Provide the information necessary to decide what management, operational and technical controls are needed to reduce the risk identified.
+			\item Ensure that assets are sufficiently protected in a cost-effective manner;
+			\item IT security risk assessment is needed for each asset in the organization that require protection;
+			\item Provide the informations necessary to decide what management, operational and technical controls are needed to reduce the risks identified.
 		\end{itemize}
 	\end{frame}
 
@@ -733,7 +733,7 @@
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{Case study: Silver Star Mine}
+		\frametitle{Case Study: Silver Star Mine (1)}
 		A case study involving the operations of  company Silver Star Mines illustrates this risk assessment process. 
 		\begin{itemize}
 			\item Silver Star Mines is the local operations of a large global
@@ -747,11 +747,11 @@
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{Case study: Silver Star Mine (2)}
+		\frametitle{Case Study: Silver Star Mine (2)}
 		The security analyst and company management decided to adopt a \textbf{combined approach}:
 		\begin{itemize}
-			\item The analyst was asked to conduct a preliminary formal assessment of the key IT systems;
-			\item The context for the risk assessment was determined: being in the mining industry sector places the company at the less risky end of the ­spectrum;
+			\item The analyst was asked to conduct a \textbf{preliminary} formal assessment of the key IT systems;
+			\item The \textbf{context} for the risk assessment was determined: being in the mining industry sector places the company at the less risky end of the ­spectrum;
 			\item SSM is part of a large organization and hence is subject to legal requirements for occupational health and safety. Thus management \textbf{decided to accept only moderate or lower risks.}
 			%SEMMAI AGGIUNGERE that it wished to accept only moderate or lower risks in general. The boundaries
 			%for this risk assessment were specified to include only the systems under the direct
@@ -762,18 +762,154 @@
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{Case study: assets identification}
+		\frametitle{Assets Identification (1)}
 		The analyst conducted interviews with key IT and engineering managers in the company, identifying the following key assets:
 		\begin{itemize}
-			\item \textbf{SCADA network};
+			\item \textbf{SCADA Network};
 			\item \textbf{Data integrity};
+			\item \textbf{Financial, Procurement and Maintenance/Production servers;}
 			\item \textbf{Email service}.
 		\end{itemize}
 		Having determined the list of key assets, the analyst needed to identify significant threats to these assets and to specify the likelihood and consequence values.
 	\end{frame}
+
+	\begin{frame}
+		\frametitle{Assets Identification (2)}
+		\textbf{SCADA Network}:
+		\begin{itemize}
+			\item Control and monitor the core mining operations.
+			\item Maintain the records required by law.
+		\end{itemize}
+		\textbf{Data integrity}:
+		\begin{itemize}
+			\item Data collected from different sources;
+			\item Some of this data are required by law;
+			\item Data on production and operational results are extremely valuable for the company.
+		\end{itemize}
+		\textbf{Financial, Procurement and Maintenance/Production servers}:
+		\begin{itemize}
+			\item Critical to the effective operation of core business area.
+		\end{itemize}
+		\textbf{Email service}:
+		\begin{itemize}
+			\item Used across all business areas.
+			\item Greater importance given, due to the remote location of the company. 
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Level of Risk: SCADA Network}
+		\begin{itemize}
+			\item \textbf{Threat}: unauthorized compromise of nodes by external source.
+			\item \textbf{Existing controls}: recently additional firewall and proxy service was introduce to connect the system to the intranet.
+			\item \textbf{Likelihood: Rare}
+			\begin{itemize}
+				\item An external attack require a series of security breaches;
+				\item Various computer crime surveys suggest that externally sourced attacks are increasing;
+				\item The analyst concluded that while an attack was
+				very unlikely, it could still occur.
+			\end{itemize}
+			\item \textbf{Consequences: Major}
+			\begin{itemize}
+				\item Serious consequences to the safety of mine's personnel;
+				\item Significant financial impact (in downtime, 10 milions per hour).
+				\item Breach of legal requirement.
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
 	
 	\begin{frame}
-		\frametitle{Case study: risk register}
+		\frametitle{Level of Risk: Data Integrity}
+		\begin{itemize}
+			\item \textbf{Threat}: compromise of data from internal or external sources, even malicious.
+			\item \textbf{Existing controls}: 
+			\begin{itemize}
+				\item Company's intranet is shielded by the outer firewall;
+				\item Policies on the input handling of data;
+				\item Policies on data backup from server.
+			\end{itemize} 
+			\item \textbf{Likelihood: Possible }
+			\begin{itemize}
+				\item Overall compliance with the policies listed above is unknown.
+				\item Computer crime surveys indicate these kind of data as primary goal of intruder. 
+			\end{itemize}	
+			\item \textbf{Consequences: Major}
+			\begin{itemize}
+				\item Financial harm due to the confidential nature of these data.
+				\item Financial cost involved with the recover of data operations.
+				\item Legal consequences in case of personal informations disclosure.
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Level of Risk: Financial and Procurement Servers}
+		\begin{itemize}
+			\item \textbf{Threat}: any form of attack on perating systems or application they use.
+			\item \textbf{Existing controls}: 
+			\begin{itemize}
+				\item Servers are placed in the company's intranet, thus are shielded by the outer firewall.
+			\end{itemize} 
+			\item \textbf{Likelihood: Possible }
+			\begin{itemize}
+				\item Any failure in company's outer firewall could very likely result in compromise of some systems;
+				\item Security reports indicate that unpatched systems could be compromised in less than 15 minutes after network connection. 
+			\end{itemize}	
+			\item \textbf{Consequences: Moderate }
+			\begin{itemize}
+				\item Propotional to extent and duration of the attack;
+				\item Rebuild of at least a portion of the system.
+				\item False orders or inability to issue order.
+				\item Inability of use electronic found. 
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Level of Risk: Maintenance/Production Servers}
+		\begin{itemize}
+			\item \textbf{Threat}: any form of attack on perating systems or application they use.
+			\item \textbf{Existing controls}: 
+			\begin{itemize}
+				\item Servers are placed in the company's intranet, thus are shielded by the outer firewall. 
+			\end{itemize} 
+			\item \textbf{Likelihood: Possible  }
+			\begin{itemize}
+				\item Any failure in company's outer firewall could very likely result in compromise of some systems;
+				\item Security reports indicate that unpatched systems could be compromised in less than 15 minutes after network connection.  
+			\end{itemize}	
+			\item \textbf{Consequences: Major }
+			\begin{itemize}
+				\item Detrimental impact on the efficiency of operations;
+				\item The systems are capable to operate despite some compromise of the systems.
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Level of Risk: E-Mail Service}
+		\begin{itemize}
+			\item \textbf{Threat}: e-mailed worms and DoS attacks.
+			\item \textbf{Existing controls}: 
+			\begin{itemize}
+				\item The company does filter e-mail in its Internet gateway. 
+			\end{itemize} 
+			\item \textbf{Likelihood: Almost Certain}
+			\begin{itemize}
+				\item The use of e-mail attachments could be used to compromise these systems;
+				\item DoS attacks against the mail gateway is very hard to defend.
+			\end{itemize}	
+			\item \textbf{Consequences: Major }
+			\begin{itemize}
+				\item Financial costs and time to rebuild the e-mail system;
+				\item Inability to send or receive reports may affect the company reputation.
+				\item However the compromise of such system would not have a large impact on the company's operations.
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Case Study: Risk Register}
 		% Please add the following required packages to your document preamble:
 		% \usepackage[table,xcdraw]{xcolor}
 		% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
@@ -795,12 +931,12 @@
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{Case study: conclusions}
+		\frametitle{Case Study: Conclusions}
 		All of the resulting risk levels are above the acceptable minimum management specified as tolerable. \textbf{Hence treatment is required}:
 		\begin{itemize}
 			\item Management decided the first five risks should be treated
 			by implementing suitable controls, which would reduce either the likelihood or the consequence should these risks occur. None of these risks could be accepted or avoided;
-			\item management decided that the risk to the SCADA network was
+			\item Management decided that the risk to the SCADA network was
 			unacceptable if there was any possibility of death, however remote;
 			\item Responsability for the final risk	to the e-mail system was found to be primarily with the parent company’s IT group, which manages the external mail gateway. Hence the risk is shared with that group.
 		\end{itemize}
@@ -812,7 +948,7 @@
 
 	
 
-	
+
 
 
 
