@@ -42,7 +42,8 @@ SLIDE Risk Likelihood (1)
 	Lo scopo di questa attività, come già anticipato nella slide precedente,  è quello di stabilire, per 		ogni minaccia o vulnerabilità ottenute nei passi precedenti, un appropriato punteggio. Questo 	 punteggio è relativo alla probabilità per ogni minaccia di sfruttare una vulnerabilità con lo scopo 	      di arrecare danno ad un asset.
 
 	Una casistica particolarmente significativa è quella relativa  a minacce provenienti                             		deliberatamente	da fonti umane.
-	In questo caso la stima della probabilità deve considerare gli intenti, le capacità e gli obietttivi 		specifici di possibili attaccanti, attribuendo valori elevati nel caso in cui una minaccia di questo 		si sia già concretizzata in passato 
+	In questo caso la stima della probabilità deve considerare gli intenti, le capacità e gli obietttivi 		specifici di possibili attaccanti, attribuendo valori elevati nel caso in cui una minaccia di questo
+	tipo  si sia già concretizzata in passato. 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -87,6 +88,39 @@ SLIDE Risk register
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
+SLIDE Casw Study: asset identification
+
+	L'esperto in sicurezza ha il compito di intervistare  i manager del reparto IT e del reparto
+	ingegneristico, con lo scopo di convogliare le informazioni (tenendo conto dei diversi punti di 
+	vista) necessarie all'individuazione degli asset chiave.
+	
+	Il primo asset, suggerito dagli engeneer manager, riguarda lo SCADA network  ed in particolare la 
+	sua reliability.  Questa rete è responsabile della gestione e del
+ 	monitoraggio delle operazioni minerarie svolte dalla compagnia e ne garantisce efficienza 
+	e sicurezza.  L'asset risulta dunque di primaria importanza non solo perchè è lo strumento 
+	con il quale la compagnia realizza direttamente i propri guadagni, ma anche per i suoi compiti
+	legali. Infatti alcuni nodi della rete sono responsabili di generare e mantaenere i registri richiesti 		dalla legge: un qualsiasi fallimento nel produrre questa documentazione legale esporrebbe la
+	compagnia a sanzioni legali.
+
+	Il secondo asset è identificato essere dall' IT management l'integrità dei dati gestiti e utilizzati
+	a tutti i livelli aziendali. I dati in questione sono raccolti da fonti diversificate: alcuni sono 			generati automaticamente mentre altri sono creati dagli impiegati. Alcuni dati sono 
+	richiesti dalla legislazione in vigore e dunque devono essere conservati con la massima 
+	attenzione.
+
+	Il terzo asset identificato sono i server Finaziari, di Gestione degli appalti e quelli di 
+	Manutenzione/Produzione. Come si può capire dalla loro denominazione questi server sono
+	direttamente coninvolti nelle operazioni della compagnia a tutti i livelli e dunque eventuali 
+	compromissioni di availability e integrity impatterebbero in modo negativo sulle capacità della 
+	compagnia di esegurire i suoi processi produttivi.
+
+	Il quarto asset identificato sono le EMAIL. L'uso della posta elettronica è trasversale a tutte
+	le aree di business della compagnia e rappresenta il 60% della corrispondenza scambiata.
+	L'importanza di questo strumento  riveste un ruolo di particolare importanza in relazione alla 
+	locazione remota della compagnia. L'asset riguarda dunque availability, integrity e confidentiality
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	
 
 	 
 
