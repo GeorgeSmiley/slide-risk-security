@@ -88,7 +88,37 @@ SLIDE Risk register
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-SLIDE Casw Study: asset identification
+SLIDE Risk Treatment (1)
+
+	Il management decide quali rimedi o trattamenti dovrebbero essere applicati per ogni treat 		prendendo in considerazione i dati raccolti nelle fasi precedenti. I criteri principali riguardano
+	ovviamente il livello di rischio e il costo relativo all'implementazione di un trattamento.
+	
+	Esistono due casistiche nelle quali si è piuttosto certi sulla convenienza o meno di un dato
+	trattamento. La prima vede un costo di  trattamento alto in relazione ad un rischio basso, la 		seconda un costo basso e un rischio elevato. Nel primo caso si tende a non implementare un 
+	alcun tipo di trattamente, mentre nel secondo il trattamento dovrebbe essere implementato.
+	
+	Le aree che si trovano tra questi due estremi sono le più difficili in termini decisionali.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+SLIDE Risk Treatment (2)
+	
+	Mostrare a quali aree ci si riferisce.
+	
+	Nei casi intermedi il management deve decidere quali azioni intraprendere o meno in relazione, 
+	non solo al contesto dell'infrastruttura informatica, ma anche di tutti i processi interni al 
+	contesto aziendale.
+	
+	La decisione potrebbe richiedere ulteriori analisi specifiche.  
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SLIDE Risk Treatment (3)
+
+	
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SLIDE Case Study: asset identification
 
 	L'esperto in sicurezza ha il compito di intervistare  i manager del reparto IT e del reparto
 	ingegneristico, con lo scopo di convogliare le informazioni (tenendo conto dei diversi punti di 
@@ -119,6 +149,8 @@ SLIDE Casw Study: asset identification
 	locazione remota della compagnia. L'asset riguarda dunque availability, integrity e confidentiality
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 	
 
