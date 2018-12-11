@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.9)  9 DEC 2018 18:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.10)  11 DEC 2018 11:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"Risk Slide.tex"
 (./Risk Slide.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 4 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/02/20 v3.50 A class for typesetting presentations
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
@@ -488,6 +488,12 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2013/03/28
+
+(/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
@@ -750,26 +756,23 @@ LaTeX Warning: Label `Interfacce di un CS' multiply defined.
 
 LaTeX Warning: Label `Interfacce di un CS' multiply defined.
 
-
-LaTeX Warning: Label `Interfacce di un CS' multiply defined.
-
 )
 \openout1 = `"Risk Slide.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -837,7 +840,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -847,56 +850,66 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count175
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
 
 (./Risk Slide.out) (./Risk Slide.out)
 \@outlinefile=\write5
 \openout5 = `"Risk Slide.out"'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 23.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 23.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 20.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 23.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 23.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 23.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 23.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 20.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 23.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 23.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 23.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 20.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 23.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 23.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 23.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 20.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 23.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 23.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 20.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 23.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 20.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 23.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 23.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 23.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 23.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 23.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 23.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 20.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 20.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 2
+0.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
+20.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -922,8 +935,8 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \it@ocap on input line 23.
-LaTeX Info: Redefining \it@ccap on input line 23.
+LaTeX Info: Redefining \it@ocap on input line 20.
+LaTeX Info: Redefining \it@ccap on input line 20.
 
 
 File italian.ldf warning: 
@@ -931,19 +944,19 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 23.
+italian.ldf    on input line 20.
 
 \c@lstlisting=\count176
 (./Risk Slide.nav) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \vbox (3.99182pt too high) detected at line 57
+Overfull \vbox (3.99182pt too high) detected at line 54
  []
 
 [2
 
 ]
-Overfull \vbox (3.99182pt too high) detected at line 87
+Overfull \vbox (3.99182pt too high) detected at line 84
  []
 
 [3
@@ -952,7 +965,7 @@ Overfull \vbox (3.99182pt too high) detected at line 87
 <img/img_01.PNG, id=107, 1334.9875pt x 220.825pt>
 File: img/img_01.PNG Graphic file (type png)
 <use img/img_01.PNG>
-Package pdftex.def Info: img/img_01.PNG  used on input line 103.
+Package pdftex.def Info: img/img_01.PNG  used on input line 100.
 (pdftex.def)             Requested size: 266.99277pt x 44.16422pt.
  [4
 
@@ -971,53 +984,43 @@ Missing character: There is no ™ in font cmss10!
 <img/img_02.PNG, id=190, 640.64343pt x 335.8146pt>
 File: img/img_02.PNG Graphic file (type png)
 <use img/img_02.PNG>
-Package pdftex.def Info: img/img_02.PNG  used on input line 140.
+Package pdftex.def Info: img/img_02.PNG  used on input line 137.
 (pdftex.def)             Requested size: 320.32092pt x 167.90689pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.140 	\end{frame}
+l.137 	\end{frame}
                   
-Overfull \hbox (13.03105pt too wide) in paragraph at lines 140--140
+Overfull \hbox (13.03105pt too wide) in paragraph at lines 137--137
  [] 
  []
 
 
-Overfull \vbox (11.36955pt too high) detected at line 140
+Overfull \vbox (11.36955pt too high) detected at line 137
  []
 
 [7
 
- <./img/img_02.PNG>]
-<img/img_03.PNG, id=219, 459.50777pt x 481.8pt>
-File: img/img_03.PNG Graphic file (type png)
-<use img/img_03.PNG>
-Package pdftex.def Info: img/img_03.PNG  used on input line 149.
-(pdftex.def)             Requested size: 183.79984pt x 192.71658pt.
-pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
-0di\040un\040CS}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.149 	\end{frame}
-                  
-Overfull \vbox (8.97923pt too high) detected at line 149
- []
-
-[8
-
- <./img/img_03.PNG>] [9
+ <./img/img_02.PNG>] [8
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 180.
+LaTeX Font Info:    Try loading font information for U+msa on input line 177.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 180.
+LaTeX Font Info:    Try loading font information for U+msb on input line 177.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 177.
+
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
 )
 Missing character: There is no Â in font cmss10!
 Missing character: There is no ­ in font cmss10!
@@ -1026,174 +1029,174 @@ Missing character: There is no ­ in font cmss10!
 Missing character: There is no Â in font cmss10!
 Missing character: There is no ­ in font cmss10!
 
-Overfull \hbox (19.92216pt too wide) in paragraph at lines 180--180
+Overfull \hbox (19.92216pt too wide) in paragraph at lines 177--177
  [] 
  []
 
 
-Overfull \vbox (0.7671pt too high) detected at line 180
+Overfull \vbox (0.7671pt too high) detected at line 177
+ []
+
+[9
+
+]
+Overfull \vbox (3.99182pt too high) detected at line 206
  []
 
 [10
 
 ]
-Overfull \vbox (3.99182pt too high) detected at line 209
- []
-
-[11
-
-]
-<img/img_04.PNG, id=327, 1430.34375pt x 468.75125pt>
+<img/img_04.PNG, id=298, 1430.34375pt x 468.75125pt>
 File: img/img_04.PNG Graphic file (type png)
 <use img/img_04.PNG>
-Package pdftex.def Info: img/img_04.PNG  used on input line 220.
+Package pdftex.def Info: img/img_04.PNG  used on input line 217.
 (pdftex.def)             Requested size: 286.06367pt x 93.74858pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.220 	\end{frame}
-                   [12
+l.217 	\end{frame}
+                   [11
 
- <./img/img_04.PNG>] [13
+ <./img/img_04.PNG>] [12
 
 ]
 Missing character: There is no Â in font cmss10!
 Missing character: There is no ­ in font cmss10!
- [14
+ [13
 
 ]
 Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
 Missing character: There is no ™ in font cmss10!
- [15
+ [14
+
+] [15
 
 ] [16
 
-] [17
-
 ]
-Overfull \vbox (3.99182pt too high) detected at line 316
+Overfull \vbox (3.99182pt too high) detected at line 313
  []
 
-[18
+[17
 
 ]
-<img/img_05.PNG, id=513, 1106.1325pt x 746.79pt>
+<img/img_05.PNG, id=484, 1106.1325pt x 746.79pt>
 File: img/img_05.PNG Graphic file (type png)
 <use img/img_05.PNG>
-Package pdftex.def Info: img/img_05.PNG  used on input line 325.
+Package pdftex.def Info: img/img_05.PNG  used on input line 322.
 (pdftex.def)             Requested size: 276.53244pt x 186.69704pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.325 	\end{frame}
+l.322 	\end{frame}
                   
-Overfull \vbox (2.95969pt too high) detected at line 325
+Overfull \vbox (2.95969pt too high) detected at line 322
  []
 
-[19
+[18
 
  <./img/img_05.PNG>]
-<img/img_06.PNG, id=541, 1334.9875pt x 764.8575pt>
+<img/img_06.PNG, id=511, 1334.9875pt x 764.8575pt>
 File: img/img_06.PNG Graphic file (type png)
 <use img/img_06.PNG>
-Package pdftex.def Info: img/img_06.PNG  used on input line 346.
+Package pdftex.def Info: img/img_06.PNG  used on input line 343.
 (pdftex.def)             Requested size: 307.04066pt x 175.91351pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.346 	\end{frame}
+l.343 	\end{frame}
                   
-Overfull \vbox (5.77617pt too high) detected at line 346
+Overfull \vbox (5.77617pt too high) detected at line 343
  []
 
-[20
+[19
 
  <./img/img_06.PNG>]
-<img/img_07.PNG, id=569, 1120.185pt x 680.5425pt>
+<img/img_07.PNG, id=539, 1120.185pt x 680.5425pt>
 File: img/img_07.PNG Graphic file (type png)
 <use img/img_07.PNG>
-Package pdftex.def Info: img/img_07.PNG  used on input line 355.
+Package pdftex.def Info: img/img_07.PNG  used on input line 352.
 (pdftex.def)             Requested size: 302.454pt x 183.74893pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.355 	\end{frame}
-                   [21
+l.352 	\end{frame}
+                   [20
 
  <./img/img_07.PNG>]
-<img/img_08.PNG, id=597, 1334.9875pt x 641.39626pt>
+<img/img_08.PNG, id=569, 1334.9875pt x 641.39626pt>
 File: img/img_08.PNG Graphic file (type png)
 <use img/img_08.PNG>
-Package pdftex.def Info: img/img_08.PNG  used on input line 364.
+Package pdftex.def Info: img/img_08.PNG  used on input line 361.
 (pdftex.def)             Requested size: 307.04066pt x 147.51804pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.364 	\end{frame}
-                   [22
+l.361 	\end{frame}
+                   [21
 
- <./img/img_08.PNG>] [23
+ <./img/img_08.PNG>] [22
 
 ]
-Overfull \vbox (3.99182pt too high) detected at line 410
+Overfull \vbox (3.99182pt too high) detected at line 407
  []
 
-[24
+[23
 
 ]
-<img/img_09.PNG, id=677, 1106.1325pt x 605.26125pt>
+<img/img_09.PNG, id=648, 1106.1325pt x 605.26125pt>
 File: img/img_09.PNG Graphic file (type png)
 <use img/img_09.PNG>
-Package pdftex.def Info: img/img_09.PNG  used on input line 419.
+Package pdftex.def Info: img/img_09.PNG  used on input line 416.
 (pdftex.def)             Requested size: 298.65976pt x 163.42271pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.419 		\end{frame}
-                    [25
+l.416 		\end{frame}
+                    [24
 
  <./img/img_09.PNG>]
-<img/img_10.PNG, id=705, 471.9787pt x 392.667pt>
+<img/img_10.PNG, id=676, 471.9787pt x 392.667pt>
 File: img/img_10.PNG Graphic file (type png)
 <use img/img_10.PNG>
-Package pdftex.def Info: img/img_10.PNG  used on input line 428.
+Package pdftex.def Info: img/img_10.PNG  used on input line 425.
 (pdftex.def)             Requested size: 221.83002pt x 184.55351pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.428 	\end{frame}
+l.425 	\end{frame}
                   
-Overfull \vbox (0.81616pt too high) detected at line 428
+Overfull \vbox (0.81616pt too high) detected at line 425
  []
 
-[26
+[25
 
  <./img/img_10.PNG>]
 Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
 Missing character: There is no ™ in font cmss10!
- [27
+ [26
 
 ]
-<img/img_11.PNG, id=759, 665.35533pt x 346.896pt>
+<img/img_11.PNG, id=731, 665.35533pt x 346.896pt>
 File: img/img_11.PNG Graphic file (type png)
 <use img/img_11.PNG>
-Package pdftex.def Info: img/img_11.PNG  used on input line 453.
+Package pdftex.def Info: img/img_11.PNG  used on input line 450.
 (pdftex.def)             Requested size: 299.40712pt x 156.10175pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.453 	\end{frame}
-                   [28
+l.450 	\end{frame}
+                   [27
 
  <./img/img_11.PNG>]
 Missing character: There is no â in font cmss10!
@@ -1205,12 +1208,12 @@ Missing character: There is no ™ in font cmss10!
 Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
 Missing character: There is no ™ in font cmss10!
- [29
+ [28
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 473.
+(Font)              using `OT1/cmss/bx/n' instead on input line 470.
 
 Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
@@ -1218,44 +1221,42 @@ Missing character: There is no ™ in font cmss10!
 Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
 Missing character: There is no ™ in font cmss10!
-[30
+[29
 
 ]
-<img/img_12.PNG, id=840, 1018.80624pt x 764.8575pt>
+<img/img_12.PNG, id=812, 1018.80624pt x 764.8575pt>
 File: img/img_12.PNG Graphic file (type png)
 <use img/img_12.PNG>
-Package pdftex.def Info: img/img_12.PNG  used on input line 482.
+Package pdftex.def Info: img/img_12.PNG  used on input line 479.
 (pdftex.def)             Requested size: 254.70093pt x 191.2139pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.482 	\end{frame}
+l.479 	\end{frame}
                   
-Overfull \vbox (7.47655pt too high) detected at line 482
+Overfull \vbox (7.47655pt too high) detected at line 479
  []
 
-[31
+[30
 
  <./img/img_12.PNG>]
 Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
 Missing character: There is no ™ in font cmss10!
- [32
+ [31
 
-] [33
+] [32
 
 ]
 Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
 Missing character: There is no ™ in font cmss10!
- [34
+ [33
+
+] [34
 
 ] [35
-
-] [36
-
-] [37
 
 ]
 Missing character: There is no â in font cmss10!
@@ -1268,71 +1269,71 @@ Missing character: There is no Â in font cmss10!
 Missing character: There is no ­ in font cmss10!
 Missing character: There is no Â in font cmss10!
 Missing character: There is no ­ in font cmss10!
- [38
+ [36
 
 ]
 Missing character: There is no â in font cmssbx10!
 Missing character: There is no € in font cmssbx10!
 Missing character: There is no ™ in font cmssbx10!
- [39
+ [37
 
-] [40
+] [38
 
 ]
 Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
 Missing character: There is no “ in font cmss10!
 
-Overfull \vbox (0.26701pt too high) detected at line 617
+Overfull \vbox (0.26701pt too high) detected at line 614
  []
 
-[41
+[39
+
+] [40
+
+] [41
 
 ] [42
 
-] [43
-
-] [44
-
 ]
-<img/img_13.PNG, id=1213, 375.804pt x 341.1144pt>
+<img/img_13.PNG, id=1157, 375.804pt x 341.1144pt>
 File: img/img_13.PNG Graphic file (type png)
 <use img/img_13.PNG>
-Package pdftex.def Info: img/img_13.PNG  used on input line 694.
+Package pdftex.def Info: img/img_13.PNG  used on input line 691.
 (pdftex.def)             Requested size: 206.69284pt x 187.61348pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.694 	\end{frame}
+l.691 	\end{frame}
                   
-Overfull \vbox (3.87613pt too high) detected at line 694
+Overfull \vbox (3.87613pt too high) detected at line 691
  []
 
-[45
+[43
 
  <./img/img_13.PNG>]
-<img/img_14.PNG, id=1241, 779.91376pt x 764.8575pt>
+<img/img_14.PNG, id=1186, 779.91376pt x 764.8575pt>
 File: img/img_14.PNG Graphic file (type png)
 <use img/img_14.PNG>
-Package pdftex.def Info: img/img_14.PNG  used on input line 703.
+Package pdftex.def Info: img/img_14.PNG  used on input line 700.
 (pdftex.def)             Requested size: 194.97797pt x 191.2139pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Interfacce\04
 0di\040un\040CS}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.703 	\end{frame}
+l.700 	\end{frame}
                   
-Overfull \vbox (7.47655pt too high) detected at line 703
+Overfull \vbox (7.47655pt too high) detected at line 700
  []
 
-[46
+[44
 
  <./img/img_14.PNG>]
-Overfull \vbox (3.99182pt too high) detected at line 733
+Overfull \vbox (3.99182pt too high) detected at line 730
  []
 
-[47
+[45
 
 ]
 Missing character: There is no Â in font cmss10!
@@ -1344,20 +1345,24 @@ Missing character: There is no ­ in font cmss10!
 Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
 Missing character: There is no ™ in font cmss10!
- [48
+ [46
 
 ]
 Missing character: There is no Â in font cmss10!
 Missing character: There is no ­ in font cmss10!
- [49
+ [47
+
+] [48
+
+]
+Overfull \vbox (13.3919pt too high) detected at line 795
+ []
+
+[49
 
 ] [50
 
-]
-Overfull \vbox (13.3919pt too high) detected at line 798
- []
-
-[51
+] [51
 
 ] [52
 
@@ -1365,21 +1370,17 @@ Overfull \vbox (13.3919pt too high) detected at line 798
 
 ] [54
 
-] [55
-
-] [56
-
 ]
-Overfull \vbox (4.46362pt too high) detected at line 931
+Overfull \vbox (4.46362pt too high) detected at line 928
  []
 
-[57
+[55
 
 ]
 Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
 Missing character: There is no ™ in font cmss10!
- [58
+ [56
 
 ]
 \tf@nav=\write6
@@ -1391,11 +1392,11 @@ Missing character: There is no ™ in font cmss10!
 \tf@snm=\write8
 \openout8 = `"Risk Slide.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 960.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 960.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 957.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 957.
  (./Risk Slide.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 960.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 960.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 957.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 957.
 Package rerunfilecheck Info: File `"Risk Slide".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1407,21 +1408,21 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19159 strings out of 494912
- 356362 string characters out of 6180266
- 452970 words of memory out of 5000000
- 21930 multiletter control sequences out of 15000+600000
- 10857 words of font info for 40 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 55i,16n,59p,806b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19281 strings out of 492982
+ 359446 string characters out of 6134895
+ 458446 words of memory out of 5000000
+ 22293 multiletter control sequences out of 15000+600000
+ 11345 words of font info for 41 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 56i,16n,59p,806b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on "Risk Slide.pdf" (58 pages, 1110467 bytes).
+Output written on "Risk Slide.pdf" (56 pages, 1077838 bytes).
 PDF statistics:
- 1628 PDF objects out of 1728 (max. 8388607)
- 1514 compressed objects within 16 object streams
- 118 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1572 PDF objects out of 1728 (max. 8388607)
+ 1463 compressed objects within 15 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
