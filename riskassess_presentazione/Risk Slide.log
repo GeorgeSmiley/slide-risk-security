@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.10)  11 DEC 2018 11:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.10)  11 DEC 2018 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1354,11 +1354,7 @@ Missing character: There is no ­ in font cmss10!
 
 ] [48
 
-]
-Overfull \vbox (13.3919pt too high) detected at line 795
- []
-
-[49
+] [49
 
 ] [50
 
@@ -1410,7 +1406,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  19281 strings out of 492982
  359446 string characters out of 6134895
- 458446 words of memory out of 5000000
+ 459446 words of memory out of 5000000
  22293 multiletter control sequences out of 15000+600000
  11345 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1419,7 +1415,7 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on "Risk Slide.pdf" (56 pages, 1077838 bytes).
+Output written on "Risk Slide.pdf" (56 pages, 1077824 bytes).
 PDF statistics:
  1572 PDF objects out of 1728 (max. 8388607)
  1463 compressed objects within 15 object streams
